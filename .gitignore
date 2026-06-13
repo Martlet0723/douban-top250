@@ -1,0 +1,19 @@
+# IDE / editor
+.kilo/
+.claude/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+
+# Ruff
+.ruff_cache/
+
+# Data output
+*.xlsx
+*.csv
