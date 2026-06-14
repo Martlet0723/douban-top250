@@ -103,9 +103,14 @@ def _movies_to_excel_bytes(movies: list[dict]) -> io.BytesIO:
 
     output = io.BytesIO()
     with pd.ExcelWriter(output, engine="openpyxl") as writer:
-        df.drop(columns=["评分区间", "id", "scraped_at"], errors="ignore").to_excel(
-            writer, sheet_name="电影数据", index=False
-        )
+        # 表头改为中文
+        col_map = {
+            "rank": "排名", "title": "电影名称", "rating": "评分",
+            "votes": "评价人数", "director": "导演", "year": "年份",
+            "genre": "类型", "link": "电影链接",
+        }
+        df_out = df.drop(columns=["评分区间", "id", "scraped_at"], errors="ignore").rename(columns=col_map)
+        df_out.to_excel(writer, sheet_name="电影数据", index=False)
         stats.to_excel(writer, sheet_name="评分统计", index=False)
         summary.to_excel(writer, sheet_name="评分统计", startcol=4, index=False)
 
