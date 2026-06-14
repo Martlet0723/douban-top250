@@ -17,6 +17,7 @@ venv/
 # Data output
 *.xlsx
 *.csv
+*.db
 
 # markdown
 dataframe_学习笔记.md

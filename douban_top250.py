@@ -293,8 +293,8 @@ def export_excel(df: pd.DataFrame, output_path: str):  # 函数签名：接收 D
     # └───────────┴──────────┘
     stats = (  # 构建评分分布统计表
         df.groupby("评分区间", observed=False)  # 按评分区间分组，observed=False 避免警告
-        .size()  # 统计每组的电影数量
-        .reset_index(name="电影数量")  # 重置索引并命名计数列
+        .size()  # 统计每组的电影数量 转化成 Series 列数据，新增一列数量
+        .reset_index(name="电影数量")  # 重置索引变成dataframe,并命名计数列
     )
 
     stats["占比"] = (stats["电影数量"] / stats["电影数量"].sum() * 100).round(1)  # 计算每个区间的百分比占比，保留1位小数
@@ -313,7 +313,7 @@ def export_excel(df: pd.DataFrame, output_path: str):  # 函数签名：接收 D
 
     # --- 写入 Excel ---
     with pd.ExcelWriter(output_path, engine="openpyxl") as writer:  # 使用 openpyxl 引擎创建 Excel writer（上下文管理器自动关闭）
-        df.drop(columns=["评分区间"]).to_excel(writer, sheet_name="电影数据", index=False)  # 写电影数据 sheet，不写临时列和行索引
+        df.drop(columns=["评分区间"]).to_excel(writer, sheet_name="电影数据", index=False)  # 删除临时列，写电影数据 sheet，不写行索引
         stats.to_excel(writer, sheet_name="评分统计", index=False)  # 写评分分布统计表到第二个 sheet
         summary.to_excel(writer, sheet_name="评分统计", startcol=4, index=False)  # 总览写在评分统计 sheet 的第5列位置（不覆盖前面）
 
@@ -392,4 +392,4 @@ def main():  # 程序主入口函数
     print("=" * 60)  # 打印结束分隔线
 
 if __name__ == "__main__":  # Python 惯用法：当此文件作为脚本直接运行时才执行 main()
-    main()  # 调用主函数启动程序
+    main()  # 调用主函数启动程序删除临时加的评分区间列删除临时加的评分区间列
