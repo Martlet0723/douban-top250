@@ -5,20 +5,26 @@
 **功能**：浏览器打开 → 点"开始采集" → 250条电影数据入库 → 表格浏览、评分筛选、导出 Excel。
 
 
+## 功能预览
+
+![系统界面预览](douban_top250.png)
+
+
 ## 快速开始
 
+### Docker（推荐，一键启动）
+
 ```bash
-# 1. 安装依赖（需要 uv）
-uv sync
-
-# 2. 启动服务
-uv run uvicorn app:app --reload --host 0.0.0.0 --port 8000
-
-# 3. 打开浏览器
-# http://localhost:8000
+docker compose up -d
+# 打开浏览器 http://localhost:8000
 ```
 
-> 无需配置数据库，SQLite 自动创建。
+### 本地运行
+
+```bash
+uv sync
+uv run uvicorn app:app --reload --host 0.0.0.0 --port 8000
+```
 
 
 ## 技术栈
@@ -52,8 +58,10 @@ API 文档: http://localhost:8000/docs
 douban/
 ├── app.py              # FastAPI 入口 + 路由
 ├── database.py         # SQLite 操作
-├── douban_top250.py    # 采集核心逻辑（复用）
+├── douban_top250.py    # 采集核心逻辑
 ├── templates/
 │   └── index.html      # 前端页面
+├── Dockerfile          # Docker 镜像
+├── docker-compose.yml  # 一键部署
 └── pyproject.toml      # 依赖管理
 ```

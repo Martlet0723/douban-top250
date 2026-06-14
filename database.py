@@ -4,10 +4,11 @@
 用标准库 sqlite3，零额外依赖。单文件数据库，一行 uvicorn 启动就能用。
 """
 
+import os
 import sqlite3
 from typing import Optional
 
-DB_PATH = "movies.db"
+DB_PATH = os.environ.get("DB_PATH", "movies.db")
 
 # save_movies() 要求每条记录必须包含这些字段
 _REQUIRED_FIELDS = ["排名", "电影名称", "评分"]

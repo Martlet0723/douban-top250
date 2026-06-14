@@ -1,0 +1,10 @@
+services:
+  douban:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DB_PATH=/app/data/movies.db
+    restart: unless-stopped
