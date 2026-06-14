@@ -70,6 +70,9 @@
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
   th, td { padding: 9px 12px; text-align: left; white-space: nowrap; }
   th { background: #fafbfc; font-weight: 600; border-bottom: 2px solid var(--border); position: sticky; top: 0; z-index: 1; font-size: 12px; text-transform: uppercase; letter-spacing: .3px; }
+  th.sortable { cursor: pointer; user-select: none; }
+  th.sortable:hover { color: var(--accent2); }
+  .sort-arrow { font-size: 10px; margin-left: 2px; }
   td { border-bottom: 1px solid var(--border); }
   tr:hover td { background: #f7f9fb; }
   .rank-col { width: 40px; text-align: center; color: var(--muted); }
@@ -163,10 +166,10 @@
           <tr>
             <th class="rank-col">#</th>
             <th>电影名称</th>
-            <th>评分</th>
-            <th>评价人数</th>
+            <th class="sortable" onclick="toggleSort('rating')">评分<span class="sort-arrow" id="arrow-rating"></span></th>
+            <th class="sortable" onclick="toggleSort('votes')">评价人数<span class="sort-arrow" id="arrow-votes"></span></th>
             <th>导演</th>
-            <th>年份</th>
+            <th class="sortable" onclick="toggleSort('year')">年份<span class="sort-arrow" id="arrow-year"></span></th>
             <th>类型</th>
             <th>链接</th>
           </tr>
@@ -189,6 +192,8 @@ let _allMovies = [];
 let _chart = null;
 let _page = 0;
 const _PAGE_SIZE = 25;
+let _sortCol = null;
+let _sortDir = 1;  // 1=asc, -1=desc
 
 // ============================================================
 // 数据加载
@@ -347,11 +352,45 @@ function getFilteredMovies() {
   const minRating = parseFloat(document.getElementById('ratingSlider').value) || 0;
   const search = document.getElementById('searchInput').value.trim().toLowerCase();
 
-  return _allMovies.filter(m => {
+  let result = _allMovies.filter(m => {
     if (m.rating < minRating) return false;
     if (search && !(m.title || '').toLowerCase().includes(search)) return false;
     return true;
   });
+
+  if (_sortCol) {
+    result.sort((a, b) => {
+      const va = a[_sortCol] ?? 0;
+      const vb = b[_sortCol] ?? 0;
+      return (va > vb ? 1 : va < vb ? -1 : 0) * _sortDir;
+    });
+  }
+
+  return result;
+}
+
+// ============================================================
+// 表头排序
+// ============================================================
+function toggleSort(col) {
+  if (_sortCol === col) {
+    _sortDir = -_sortDir;
+  } else {
+    _sortCol = col;
+    _sortDir = -1;
+  }
+  updateSortArrows();
+  _page = 0;
+  const movies = getFilteredMovies();
+  renderTable(movies);
+}
+
+function updateSortArrows() {
+  document.querySelectorAll('.sort-arrow').forEach(el => el.textContent = '');
+  if (_sortCol) {
+    const arrow = document.getElementById('arrow-' + _sortCol);
+    if (arrow) arrow.textContent = _sortDir === -1 ? ' ▼' : ' ▲';
+  }
 }
 
 // ============================================================
