@@ -122,6 +122,12 @@ def index():
     return HTMLResponse(_INDEX_HTML)
 
 
+@app.get("/favicon.ico")
+def favicon():
+    """消除 404 噪音。"""
+    return HTMLResponse(status_code=204)
+
+
 # ============================================================
 # 路由：电影列表
 # ============================================================
