@@ -1,0 +1,2783 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "豆瓣电影 Top250 数据查询系统" [level=1] [ref=e4]
+    - generic [ref=e5]:
+      - button "开始采集" [ref=e6] [cursor=pointer]
+      - button "导出 Excel" [ref=e7] [cursor=pointer]
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - text: 总计
+      - strong [ref=e10]: "250"
+      - text: 条
+    - generic [ref=e11]:
+      - text: 平均评分
+      - strong [ref=e12]: "8.95"
+    - generic [ref=e13]:
+      - text: 最高
+      - strong [ref=e14]: 9.7 (肖申克的救赎)
+  - generic [ref=e15]:
+    - generic [ref=e16]: 最低评分：
+    - slider [ref=e17]: "0"
+    - generic [ref=e18]: 全部
+  - table [ref=e20]:
+    - rowgroup [ref=e21]:
+      - row "排名 电影名称 评分 评价人数 导演 年份 类型 链接" [ref=e22]:
+        - columnheader "排名" [ref=e23]
+        - columnheader "电影名称" [ref=e24]
+        - columnheader "评分" [ref=e25]
+        - columnheader "评价人数" [ref=e26]
+        - columnheader "导演" [ref=e27]
+        - columnheader "年份" [ref=e28]
+        - columnheader "类型" [ref=e29]
+        - columnheader "链接" [ref=e30]
+    - rowgroup [ref=e31]:
+      - row "1 肖申克的救赎 9.7 330万 弗兰克·德拉邦特 Frank Darabont 1994 犯罪 剧情 详情" [ref=e32]:
+        - cell "1" [ref=e33]
+        - cell "肖申克的救赎" [ref=e34]
+        - cell "9.7" [ref=e35]
+        - cell "330万" [ref=e36]
+        - cell "弗兰克·德拉邦特 Frank Darabont" [ref=e37]
+        - cell "1994" [ref=e38]
+        - cell "犯罪 剧情" [ref=e39]
+        - cell "详情" [ref=e40]:
+          - link "详情" [ref=e41] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292052/
+      - row "2 霸王别姬 9.6 243万 陈凯歌 Kaige Chen 1993 剧情 爱情 同性 详情" [ref=e42]:
+        - cell "2" [ref=e43]
+        - cell "霸王别姬" [ref=e44]
+        - cell "9.6" [ref=e45]
+        - cell "243万" [ref=e46]
+        - cell "陈凯歌 Kaige Chen" [ref=e47]
+        - cell "1993" [ref=e48]
+        - cell "剧情 爱情 同性" [ref=e49]
+        - cell "详情" [ref=e50]:
+          - link "详情" [ref=e51] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291546/
+      - row "3 泰坦尼克号 9.5 251万 詹姆斯·卡梅隆 James Cameron 1997 剧情 爱情 灾难 详情" [ref=e52]:
+        - cell "3" [ref=e53]
+        - cell "泰坦尼克号" [ref=e54]
+        - cell "9.5" [ref=e55]
+        - cell "251万" [ref=e56]
+        - cell "詹姆斯·卡梅隆 James Cameron" [ref=e57]
+        - cell "1997" [ref=e58]
+        - cell "剧情 爱情 灾难" [ref=e59]
+        - cell "详情" [ref=e60]:
+          - link "详情" [ref=e61] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292722/
+      - row "4 阿甘正传 9.5 244万 罗伯特·泽米吉斯 Robert Zemeckis 1994 剧情 爱情 详情" [ref=e62]:
+        - cell "4" [ref=e63]
+        - cell "阿甘正传" [ref=e64]
+        - cell "9.5" [ref=e65]
+        - cell "244万" [ref=e66]
+        - cell "罗伯特·泽米吉斯 Robert Zemeckis" [ref=e67]
+        - cell "1994" [ref=e68]
+        - cell "剧情 爱情" [ref=e69]
+        - cell "详情" [ref=e70]:
+          - link "详情" [ref=e71] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292720/
+      - row "5 千与千寻 9.4 255万 宫崎骏 Hayao Miyazaki 2001 剧情 动画 奇幻 详情" [ref=e72]:
+        - cell "5" [ref=e73]
+        - cell "千与千寻" [ref=e74]
+        - cell "9.4" [ref=e75]
+        - cell "255万" [ref=e76]
+        - cell "宫崎骏 Hayao Miyazaki" [ref=e77]
+        - cell "2001" [ref=e78]
+        - cell "剧情 动画 奇幻" [ref=e79]
+        - cell "详情" [ref=e80]:
+          - link "详情" [ref=e81] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291561/
+      - row "6 美丽人生 9.5 149万 罗伯托·贝尼尼 Roberto Benigni 1997 剧情 喜剧 爱情 战争 详情" [ref=e82]:
+        - cell "6" [ref=e83]
+        - cell "美丽人生" [ref=e84]
+        - cell "9.5" [ref=e85]
+        - cell "149万" [ref=e86]
+        - cell "罗伯托·贝尼尼 Roberto Benigni" [ref=e87]
+        - cell "1997" [ref=e88]
+        - cell "剧情 喜剧 爱情 战争" [ref=e89]
+        - cell "详情" [ref=e90]:
+          - link "详情" [ref=e91] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292063/
+      - row "7 星际穿越 9.4 219万 克里斯托弗·诺兰 Christopher Nolan 2014 剧情 科幻 冒险 详情" [ref=e92]:
+        - cell "7" [ref=e93]
+        - cell "星际穿越" [ref=e94]
+        - cell "9.4" [ref=e95]
+        - cell "219万" [ref=e96]
+        - cell "克里斯托弗·诺兰 Christopher Nolan" [ref=e97]
+        - cell "2014" [ref=e98]
+        - cell "剧情 科幻 冒险" [ref=e99]
+        - cell "详情" [ref=e100]:
+          - link "详情" [ref=e101] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1889243/
+      - row "8 这个杀手不太冷 9.4 256万 吕克·贝松 Luc Besson 1994 剧情 动作 犯罪 详情" [ref=e102]:
+        - cell "8" [ref=e103]
+        - cell "这个杀手不太冷" [ref=e104]
+        - cell "9.4" [ref=e105]
+        - cell "256万" [ref=e106]
+        - cell "吕克·贝松 Luc Besson" [ref=e107]
+        - cell "1994" [ref=e108]
+        - cell "剧情 动作 犯罪" [ref=e109]
+        - cell "详情" [ref=e110]:
+          - link "详情" [ref=e111] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1295644/
+      - row "9 盗梦空间 9.4 233万 克里斯托弗·诺兰 Christopher Nolan 2010 剧情 科幻 悬疑 冒险 详情" [ref=e112]:
+        - cell "9" [ref=e113]
+        - cell "盗梦空间" [ref=e114]
+        - cell "9.4" [ref=e115]
+        - cell "233万" [ref=e116]
+        - cell "克里斯托弗·诺兰 Christopher Nolan" [ref=e117]
+        - cell "2010" [ref=e118]
+        - cell "剧情 科幻 悬疑 冒险" [ref=e119]
+        - cell "详情" [ref=e120]:
+          - link "详情" [ref=e121] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3541415/
+      - row "10 楚门的世界 9.4 203万 彼得·威尔 Peter Weir 1998 剧情 科幻 详情" [ref=e122]:
+        - cell "10" [ref=e123]
+        - cell "楚门的世界" [ref=e124]
+        - cell "9.4" [ref=e125]
+        - cell "203万" [ref=e126]
+        - cell "彼得·威尔 Peter Weir" [ref=e127]
+        - cell "1998" [ref=e128]
+        - cell "剧情 科幻" [ref=e129]
+        - cell "详情" [ref=e130]:
+          - link "详情" [ref=e131] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292064/
+      - row "11 辛德勒的名单 9.5 125万 史蒂文·斯皮尔伯格 Steven Spielberg 1993 剧情 历史 战争 详情" [ref=e132]:
+        - cell "11" [ref=e133]
+        - cell "辛德勒的名单" [ref=e134]
+        - cell "9.5" [ref=e135]
+        - cell "125万" [ref=e136]
+        - cell "史蒂文·斯皮尔伯格 Steven Spielberg" [ref=e137]
+        - cell "1993" [ref=e138]
+        - cell "剧情 历史 战争" [ref=e139]
+        - cell "详情" [ref=e140]:
+          - link "详情" [ref=e141] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1295124/
+      - row "12 忠犬八公的故事 9.4 155万 莱塞·霍尔斯道姆 Lasse Hallström 2009 剧情 详情" [ref=e142]:
+        - cell "12" [ref=e143]
+        - cell "忠犬八公的故事" [ref=e144]
+        - cell "9.4" [ref=e145]
+        - cell "155万" [ref=e146]
+        - cell "莱塞·霍尔斯道姆 Lasse Hallström" [ref=e147]
+        - cell "2009" [ref=e148]
+        - cell "剧情" [ref=e149]
+        - cell "详情" [ref=e150]:
+          - link "详情" [ref=e151] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3011091/
+      - row "13 海上钢琴师 9.3 188万 朱塞佩·托纳多雷 Giuseppe Tornatore 1998 剧情 音乐 详情" [ref=e152]:
+        - cell "13" [ref=e153]
+        - cell "海上钢琴师" [ref=e154]
+        - cell "9.3" [ref=e155]
+        - cell "188万" [ref=e156]
+        - cell "朱塞佩·托纳多雷 Giuseppe Tornatore" [ref=e157]
+        - cell "1998" [ref=e158]
+        - cell "剧情 音乐" [ref=e159]
+        - cell "详情" [ref=e160]:
+          - link "详情" [ref=e161] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292001/
+      - row "14 疯狂动物城 9.3 233万 拜伦·霍华德 Byron Howard / 瑞奇·摩尔 Rich Moore 2016 喜剧 动画 冒险 详情" [ref=e162]:
+        - cell "14" [ref=e163]
+        - cell "疯狂动物城" [ref=e164]
+        - cell "9.3" [ref=e165]
+        - cell "233万" [ref=e166]
+        - cell "拜伦·霍华德 Byron Howard / 瑞奇·摩尔 Rich Moore" [ref=e167]
+        - cell "2016" [ref=e168]
+        - cell "喜剧 动画 冒险" [ref=e169]
+        - cell "详情" [ref=e170]:
+          - link "详情" [ref=e171] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25662329/
+      - row "15 三傻大闹宝莱坞 9.2 208万 拉库马·希拉尼 Rajkumar Hirani 2009 剧情 喜剧 爱情 歌舞 详情" [ref=e172]:
+        - cell "15" [ref=e173]
+        - cell "三傻大闹宝莱坞" [ref=e174]
+        - cell "9.2" [ref=e175]
+        - cell "208万" [ref=e176]
+        - cell "拉库马·希拉尼 Rajkumar Hirani" [ref=e177]
+        - cell "2009" [ref=e178]
+        - cell "剧情 喜剧 爱情 歌舞" [ref=e179]
+        - cell "详情" [ref=e180]:
+          - link "详情" [ref=e181] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3793023/
+      - row "16 机器人总动员 9.3 150万 安德鲁·斯坦顿 Andrew Stanton 2008 科幻 动画 冒险 详情" [ref=e182]:
+        - cell "16" [ref=e183]
+        - cell "机器人总动员" [ref=e184]
+        - cell "9.3" [ref=e185]
+        - cell "150万" [ref=e186]
+        - cell "安德鲁·斯坦顿 Andrew Stanton" [ref=e187]
+        - cell "2008" [ref=e188]
+        - cell "科幻 动画 冒险" [ref=e189]
+        - cell "详情" [ref=e190]:
+          - link "详情" [ref=e191] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/2131459/
+      - row "17 放牛班的春天 9.3 148万 克里斯托夫·巴拉蒂 Christophe Barratier 2004 剧情 音乐 详情" [ref=e192]:
+        - cell "17" [ref=e193]
+        - cell "放牛班的春天" [ref=e194]
+        - cell "9.3" [ref=e195]
+        - cell "148万" [ref=e196]
+        - cell "克里斯托夫·巴拉蒂 Christophe Barratier" [ref=e197]
+        - cell "2004" [ref=e198]
+        - cell "剧情 音乐" [ref=e199]
+        - cell "详情" [ref=e200]:
+          - link "详情" [ref=e201] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291549/
+      - row "18 无间道 9.3 157万 刘伟强 / 麦兆辉 2002 剧情 犯罪 惊悚 详情" [ref=e202]:
+        - cell "18" [ref=e203]
+        - cell "无间道" [ref=e204]
+        - cell "9.3" [ref=e205]
+        - cell "157万" [ref=e206]
+        - cell "刘伟强 / 麦兆辉" [ref=e207]
+        - cell "2002" [ref=e208]
+        - cell "剧情 犯罪 惊悚" [ref=e209]
+        - cell "详情" [ref=e210]:
+          - link "详情" [ref=e211] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1307914/
+      - row "19 控方证人 9.6 75万 比利·怀尔德 Billy Wilder 1957 剧情 犯罪 悬疑 惊悚 详情" [ref=e212]:
+        - cell "19" [ref=e213]
+        - cell "控方证人" [ref=e214]
+        - cell "9.6" [ref=e215]
+        - cell "75万" [ref=e216]
+        - cell "比利·怀尔德 Billy Wilder" [ref=e217]
+        - cell "1957" [ref=e218]
+        - cell "剧情 犯罪 悬疑 惊悚" [ref=e219]
+        - cell "详情" [ref=e220]:
+          - link "详情" [ref=e221] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1296141/
+      - row "20 寻梦环游记 9.1 200万 李·昂克里奇 Lee Unkrich / 阿德里安·莫利纳 Adrian Molina 2017 喜剧 动画 奇幻 音乐 详情" [ref=e222]:
+        - cell "20" [ref=e223]
+        - cell "寻梦环游记" [ref=e224]
+        - cell "9.1" [ref=e225]
+        - cell "200万" [ref=e226]
+        - cell "李·昂克里奇 Lee Unkrich / 阿德里安·莫利纳 Adrian Molina" [ref=e227]
+        - cell "2017" [ref=e228]
+        - cell "喜剧 动画 奇幻 音乐" [ref=e229]
+        - cell "详情" [ref=e230]:
+          - link "详情" [ref=e231] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/20495023/
+      - row "21 大话西游之大圣娶亲 9.2 171万 刘镇伟 Jeffrey Lau 1995 喜剧 爱情 奇幻 古装 详情" [ref=e232]:
+        - cell "21" [ref=e233]
+        - cell "大话西游之大圣娶亲" [ref=e234]
+        - cell "9.2" [ref=e235]
+        - cell "171万" [ref=e236]
+        - cell "刘镇伟 Jeffrey Lau" [ref=e237]
+        - cell "1995" [ref=e238]
+        - cell "喜剧 爱情 奇幻 古装" [ref=e239]
+        - cell "详情" [ref=e240]:
+          - link "详情" [ref=e241] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292213/
+      - row "22 熔炉 9.3 104万 黄东赫 Dong-hyuk Hwang 2011 剧情 详情" [ref=e242]:
+        - cell "22" [ref=e243]
+        - cell "熔炉" [ref=e244]
+        - cell "9.3" [ref=e245]
+        - cell "104万" [ref=e246]
+        - cell "黄东赫 Dong-hyuk Hwang" [ref=e247]
+        - cell "2011" [ref=e248]
+        - cell "剧情" [ref=e249]
+        - cell "详情" [ref=e250]:
+          - link "详情" [ref=e251] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/5912992/
+      - row "23 触不可及 9.3 130万 奥利维·那卡什 Olivier Nakache / 艾力克·托兰达 Eric Toledano 2011 剧情 喜剧 详情" [ref=e252]:
+        - cell "23" [ref=e253]
+        - cell "触不可及" [ref=e254]
+        - cell "9.3" [ref=e255]
+        - cell "130万" [ref=e256]
+        - cell "奥利维·那卡什 Olivier Nakache / 艾力克·托兰达 Eric Toledano" [ref=e257]
+        - cell "2011" [ref=e258]
+        - cell "剧情 喜剧" [ref=e259]
+        - cell "详情" [ref=e260]:
+          - link "详情" [ref=e261] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/6786002/
+      - row "24 教父 9.3 111万 弗朗西斯·福特·科波拉 Francis Ford Coppola 1972 剧情 犯罪 详情" [ref=e262]:
+        - cell "24" [ref=e263]
+        - cell "教父" [ref=e264]
+        - cell "9.3" [ref=e265]
+        - cell "111万" [ref=e266]
+        - cell "弗朗西斯·福特·科波拉 Francis Ford Coppola" [ref=e267]
+        - cell "1972" [ref=e268]
+        - cell "剧情 犯罪" [ref=e269]
+        - cell "详情" [ref=e270]:
+          - link "详情" [ref=e271] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291841/
+      - row "25 末代皇帝 9.3 103万 贝纳尔多·贝托鲁奇 Bernardo Bertolucci 1987 剧情 传记 历史 详情" [ref=e272]:
+        - cell "25" [ref=e273]
+        - cell "末代皇帝" [ref=e274]
+        - cell "9.3" [ref=e275]
+        - cell "103万" [ref=e276]
+        - cell "贝纳尔多·贝托鲁奇 Bernardo Bertolucci" [ref=e277]
+        - cell "1987" [ref=e278]
+        - cell "剧情 传记 历史" [ref=e279]
+        - cell "详情" [ref=e280]:
+          - link "详情" [ref=e281] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293172/
+      - row "26 哈利·波特与魔法石 9.2 143万 Chris Columbus 2001 奇幻 冒险 详情" [ref=e282]:
+        - cell "26" [ref=e283]
+        - cell "哈利·波特与魔法石" [ref=e284]
+        - cell "9.2" [ref=e285]
+        - cell "143万" [ref=e286]
+        - cell "Chris Columbus" [ref=e287]
+        - cell "2001" [ref=e288]
+        - cell "奇幻 冒险" [ref=e289]
+        - cell "详情" [ref=e290]:
+          - link "详情" [ref=e291] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1295038/
+      - row "27 当幸福来敲门 9.1 169万 加布里尔·穆奇诺 Gabriele Muccino 2006 剧情 传记 家庭 详情" [ref=e292]:
+        - cell "27" [ref=e293]
+        - cell "当幸福来敲门" [ref=e294]
+        - cell "9.1" [ref=e295]
+        - cell "169万" [ref=e296]
+        - cell "加布里尔·穆奇诺 Gabriele Muccino" [ref=e297]
+        - cell "2006" [ref=e298]
+        - cell "剧情 传记 家庭" [ref=e299]
+        - cell "详情" [ref=e300]:
+          - link "详情" [ref=e301] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1849031/
+      - row "28 龙猫 9.2 142万 宫崎骏 Hayao Miyazaki 1988 动画 奇幻 冒险 详情" [ref=e302]:
+        - cell "28" [ref=e303]
+        - cell "龙猫" [ref=e304]
+        - cell "9.2" [ref=e305]
+        - cell "142万" [ref=e306]
+        - cell "宫崎骏 Hayao Miyazaki" [ref=e307]
+        - cell "1988" [ref=e308]
+        - cell "动画 奇幻 冒险" [ref=e309]
+        - cell "详情" [ref=e310]:
+          - link "详情" [ref=e311] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291560/
+      - row "29 活着 9.3 97万 张艺谋 Yimou Zhang 1994 剧情 历史 家庭 详情" [ref=e312]:
+        - cell "29" [ref=e313]
+        - cell "活着" [ref=e314]
+        - cell "9.3" [ref=e315]
+        - cell "97万" [ref=e316]
+        - cell "张艺谋 Yimou Zhang" [ref=e317]
+        - cell "1994" [ref=e318]
+        - cell "剧情 历史 家庭" [ref=e319]
+        - cell "详情" [ref=e320]:
+          - link "详情" [ref=e321] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292365/
+      - row "30 怦然心动 9.1 206万 罗伯·莱纳 Rob Reiner 2010 剧情 喜剧 爱情 详情" [ref=e322]:
+        - cell "30" [ref=e323]
+        - cell "怦然心动" [ref=e324]
+        - cell "9.1" [ref=e325]
+        - cell "206万" [ref=e326]
+        - cell "罗伯·莱纳 Rob Reiner" [ref=e327]
+        - cell "2010" [ref=e328]
+        - cell "剧情 喜剧 爱情" [ref=e329]
+        - cell "详情" [ref=e330]:
+          - link "详情" [ref=e331] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3319755/
+      - row "31 蝙蝠侠：黑暗骑士 9.2 120万 克里斯托弗·诺兰 Christopher Nolan 2008 剧情 动作 科幻 犯罪 惊悚 详情" [ref=e332]:
+        - cell "31" [ref=e333]
+        - cell "蝙蝠侠：黑暗骑士" [ref=e334]
+        - cell "9.2" [ref=e335]
+        - cell "120万" [ref=e336]
+        - cell "克里斯托弗·诺兰 Christopher Nolan" [ref=e337]
+        - cell "2008" [ref=e338]
+        - cell "剧情 动作 科幻 犯罪 惊悚" [ref=e339]
+        - cell "详情" [ref=e340]:
+          - link "详情" [ref=e341] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1851857/
+      - row "32 指环王3：王者无敌 9.3 91万 彼得·杰克逊 Peter Jackson 2003 剧情 动作 奇幻 冒险 详情" [ref=e342]:
+        - cell "32" [ref=e343]
+        - cell "指环王3：王者无敌" [ref=e344]
+        - cell "9.3" [ref=e345]
+        - cell "91万" [ref=e346]
+        - cell "彼得·杰克逊 Peter Jackson" [ref=e347]
+        - cell "2003" [ref=e348]
+        - cell "剧情 动作 奇幻 冒险" [ref=e349]
+        - cell "详情" [ref=e350]:
+          - link "详情" [ref=e351] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291552/
+      - row "33 我不是药神 9 236万 文牧野 Muye Wen 2018 剧情 喜剧 详情" [ref=e352]:
+        - cell "33" [ref=e353]
+        - cell "我不是药神" [ref=e354]
+        - cell "9" [ref=e355]
+        - cell "236万" [ref=e356]
+        - cell "文牧野 Muye Wen" [ref=e357]
+        - cell "2018" [ref=e358]
+        - cell "剧情 喜剧" [ref=e359]
+        - cell "详情" [ref=e360]:
+          - link "详情" [ref=e361] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26752088/
+      - row "34 乱世佳人 9.3 80万 维克多·弗莱明 Victor Fleming / 乔治·库克 George Cukor 1939 剧情 历史 爱情 战争 详情" [ref=e362]:
+        - cell "34" [ref=e363]
+        - cell "乱世佳人" [ref=e364]
+        - cell "9.3" [ref=e365]
+        - cell "80万" [ref=e366]
+        - cell "维克多·弗莱明 Victor Fleming / 乔治·库克 George Cukor" [ref=e367]
+        - cell "1939" [ref=e368]
+        - cell "剧情 历史 爱情 战争" [ref=e369]
+        - cell "详情" [ref=e370]:
+          - link "详情" [ref=e371] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1300267/
+      - row "35 让子弹飞 9 193万 姜文 Wen Jiang 2010 剧情 喜剧 动作 西部 详情" [ref=e372]:
+        - cell "35" [ref=e373]
+        - cell "让子弹飞" [ref=e374]
+        - cell "9" [ref=e375]
+        - cell "193万" [ref=e376]
+        - cell "姜文 Wen Jiang" [ref=e377]
+        - cell "2010" [ref=e378]
+        - cell "剧情 喜剧 动作 西部" [ref=e379]
+        - cell "详情" [ref=e380]:
+          - link "详情" [ref=e381] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3742360/
+      - row "36 飞屋环游记 9.1 151万 彼特·道格特 Pete Docter / 鲍勃·彼德森 Bob Peterson 2009 剧情 喜剧 动画 冒险 详情" [ref=e382]:
+        - cell "36" [ref=e383]
+        - cell "飞屋环游记" [ref=e384]
+        - cell "9.1" [ref=e385]
+        - cell "151万" [ref=e386]
+        - cell "彼特·道格特 Pete Docter / 鲍勃·彼德森 Bob Peterson" [ref=e387]
+        - cell "2009" [ref=e388]
+        - cell "剧情 喜剧 动画 冒险" [ref=e389]
+        - cell "详情" [ref=e390]:
+          - link "详情" [ref=e391] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/2129039/
+      - row "37 哈尔的移动城堡 9.1 130万 宫崎骏 Hayao Miyazaki 2004 爱情 动画 奇幻 冒险 详情" [ref=e392]:
+        - cell "37" [ref=e393]
+        - cell "哈尔的移动城堡" [ref=e394]
+        - cell "9.1" [ref=e395]
+        - cell "130万" [ref=e396]
+        - cell "宫崎骏 Hayao Miyazaki" [ref=e397]
+        - cell "2004" [ref=e398]
+        - cell "爱情 动画 奇幻 冒险" [ref=e399]
+        - cell "详情" [ref=e400]:
+          - link "详情" [ref=e401] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1308807/
+      - row "38 十二怒汉 9.4 58万 西德尼·吕美特 Sidney Lumet 1957 剧情 详情" [ref=e402]:
+        - cell "38" [ref=e403]
+        - cell "十二怒汉" [ref=e404]
+        - cell "9.4" [ref=e405]
+        - cell "58万" [ref=e406]
+        - cell "西德尼·吕美特 Sidney Lumet" [ref=e407]
+        - cell "1957" [ref=e408]
+        - cell "剧情" [ref=e409]
+        - cell "详情" [ref=e410]:
+          - link "详情" [ref=e411] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293182/
+      - row "39 海蒂和爷爷 9.3 79万 阿兰·葛斯彭纳 Alain Gsponer 2015 剧情 冒险 家庭 详情" [ref=e412]:
+        - cell "39" [ref=e413]
+        - cell "海蒂和爷爷" [ref=e414]
+        - cell "9.3" [ref=e415]
+        - cell "79万" [ref=e416]
+        - cell "阿兰·葛斯彭纳 Alain Gsponer" [ref=e417]
+        - cell "2015" [ref=e418]
+        - cell "剧情 冒险 家庭" [ref=e419]
+        - cell "详情" [ref=e420]:
+          - link "详情" [ref=e421] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25958717/
+      - row "40 素媛 9.3 78万 李濬益 Jun-ik Lee 2013 剧情 详情" [ref=e422]:
+        - cell "40" [ref=e423]
+        - cell "素媛" [ref=e424]
+        - cell "9.3" [ref=e425]
+        - cell "78万" [ref=e426]
+        - cell "李濬益 Jun-ik Lee" [ref=e427]
+        - cell "2013" [ref=e428]
+        - cell "剧情" [ref=e429]
+        - cell "详情" [ref=e430]:
+          - link "详情" [ref=e431] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/21937452/
+      - row "41 猫鼠游戏 9.1 122万 史蒂文·斯皮尔伯格 Steven Spielberg 2002 传记 犯罪 剧情 详情" [ref=e432]:
+        - cell "41" [ref=e433]
+        - cell "猫鼠游戏" [ref=e434]
+        - cell "9.1" [ref=e435]
+        - cell "122万" [ref=e436]
+        - cell "史蒂文·斯皮尔伯格 Steven Spielberg" [ref=e437]
+        - cell "2002" [ref=e438]
+        - cell "传记 犯罪 剧情" [ref=e439]
+        - cell "详情" [ref=e440]:
+          - link "详情" [ref=e441] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1305487/
+      - row "42 天空之城 9.2 101万 宫崎骏 Hayao Miyazaki 1986 动画 奇幻 冒险 详情" [ref=e442]:
+        - cell "42" [ref=e443]
+        - cell "天空之城" [ref=e444]
+        - cell "9.2" [ref=e445]
+        - cell "101万" [ref=e446]
+        - cell "宫崎骏 Hayao Miyazaki" [ref=e447]
+        - cell "1986" [ref=e448]
+        - cell "动画 奇幻 冒险" [ref=e449]
+        - cell "详情" [ref=e450]:
+          - link "详情" [ref=e451] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291583/
+      - row "43 鬼子来了 9.3 72万 姜文 Wen Jiang 2000 剧情 喜剧 详情" [ref=e452]:
+        - cell "43" [ref=e453]
+        - cell "鬼子来了" [ref=e454]
+        - cell "9.3" [ref=e455]
+        - cell "72万" [ref=e456]
+        - cell "姜文 Wen Jiang" [ref=e457]
+        - cell "2000" [ref=e458]
+        - cell "剧情 喜剧" [ref=e459]
+        - cell "详情" [ref=e460]:
+          - link "详情" [ref=e461] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291858/
+      - row "44 摔跤吧！爸爸 9 175万 涅提·蒂瓦里 Nitesh Tiwari 2016 剧情 传记 运动 家庭 详情" [ref=e462]:
+        - cell "44" [ref=e463]
+        - cell "摔跤吧！爸爸" [ref=e464]
+        - cell "9" [ref=e465]
+        - cell "175万" [ref=e466]
+        - cell "涅提·蒂瓦里 Nitesh Tiwari" [ref=e467]
+        - cell "2016" [ref=e468]
+        - cell "剧情 传记 运动 家庭" [ref=e469]
+        - cell "详情" [ref=e470]:
+          - link "详情" [ref=e471] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26387939/
+      - row "45 少年派的奇幻漂流 9.1 149万 李安 Ang Lee 2012 剧情 奇幻 冒险 详情" [ref=e472]:
+        - cell "45" [ref=e473]
+        - cell "少年派的奇幻漂流" [ref=e474]
+        - cell "9.1" [ref=e475]
+        - cell "149万" [ref=e476]
+        - cell "李安 Ang Lee" [ref=e477]
+        - cell "2012" [ref=e478]
+        - cell "剧情 奇幻 冒险" [ref=e479]
+        - cell "详情" [ref=e480]:
+          - link "详情" [ref=e481] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1929463/
+      - row "46 钢琴家 9.3 75万 罗曼·波兰斯基 Roman Polanski 2002 剧情 传记 战争 音乐 详情" [ref=e482]:
+        - cell "46" [ref=e483]
+        - cell "钢琴家" [ref=e484]
+        - cell "9.3" [ref=e485]
+        - cell "75万" [ref=e486]
+        - cell "罗曼·波兰斯基 Roman Polanski" [ref=e487]
+        - cell "2002" [ref=e488]
+        - cell "剧情 传记 战争 音乐" [ref=e489]
+        - cell "详情" [ref=e490]:
+          - link "详情" [ref=e491] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1296736/
+      - row "47 死亡诗社 9.2 89万 彼得·威尔 Peter Weir 1989 剧情 详情" [ref=e492]:
+        - cell "47" [ref=e493]
+        - cell "死亡诗社" [ref=e494]
+        - cell "9.2" [ref=e495]
+        - cell "89万" [ref=e496]
+        - cell "彼得·威尔 Peter Weir" [ref=e497]
+        - cell "1989" [ref=e498]
+        - cell "剧情" [ref=e499]
+        - cell "详情" [ref=e500]:
+          - link "详情" [ref=e501] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291548/
+      - row "48 指环王2：双塔奇兵 9.2 86万 彼得·杰克逊 Peter Jackson 2002 剧情 动作 奇幻 冒险 详情" [ref=e502]:
+        - cell "48" [ref=e503]
+        - cell "指环王2：双塔奇兵" [ref=e504]
+        - cell "9.2" [ref=e505]
+        - cell "86万" [ref=e506]
+        - cell "彼得·杰克逊 Peter Jackson" [ref=e507]
+        - cell "2002" [ref=e508]
+        - cell "剧情 动作 奇幻 冒险" [ref=e509]
+        - cell "详情" [ref=e510]:
+          - link "详情" [ref=e511] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291572/
+      - row "49 大话西游之月光宝盒 9 137万 刘镇伟 Jeffrey Lau 1995 喜剧 爱情 奇幻 古装 详情" [ref=e512]:
+        - cell "49" [ref=e513]
+        - cell "大话西游之月光宝盒" [ref=e514]
+        - cell "9" [ref=e515]
+        - cell "137万" [ref=e516]
+        - cell "刘镇伟 Jeffrey Lau" [ref=e517]
+        - cell "1995" [ref=e518]
+        - cell "喜剧 爱情 奇幻 古装" [ref=e519]
+        - cell "详情" [ref=e520]:
+          - link "详情" [ref=e521] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1299398/
+      - row "50 绿皮书 8.9 190万 彼得·法雷里 Peter Farrelly 2018 剧情 喜剧 传记 音乐 详情" [ref=e522]:
+        - cell "50" [ref=e523]
+        - cell "绿皮书" [ref=e524]
+        - cell "8.9" [ref=e525]
+        - cell "190万" [ref=e526]
+        - cell "彼得·法雷里 Peter Farrelly" [ref=e527]
+        - cell "2018" [ref=e528]
+        - cell "剧情 喜剧 传记 音乐" [ref=e529]
+        - cell "详情" [ref=e530]:
+          - link "详情" [ref=e531] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/27060077/
+      - row "51 何以为家 9.1 117万 娜丁·拉巴基 Nadine Labaki 2018 剧情 详情" [ref=e532]:
+        - cell "51" [ref=e533]
+        - cell "何以为家" [ref=e534]
+        - cell "9.1" [ref=e535]
+        - cell "117万" [ref=e536]
+        - cell "娜丁·拉巴基 Nadine Labaki" [ref=e537]
+        - cell "2018" [ref=e538]
+        - cell "剧情" [ref=e539]
+        - cell "详情" [ref=e540]:
+          - link "详情" [ref=e541] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/30170448/
+      - row "52 闻香识女人 9.1 103万 马丁·布莱斯 Martin Brest 1992 剧情 详情" [ref=e542]:
+        - cell "52" [ref=e543]
+        - cell "闻香识女人" [ref=e544]
+        - cell "9.1" [ref=e545]
+        - cell "103万" [ref=e546]
+        - cell "马丁·布莱斯 Martin Brest" [ref=e547]
+        - cell "1992" [ref=e548]
+        - cell "剧情" [ref=e549]
+        - cell "详情" [ref=e550]:
+          - link "详情" [ref=e551] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1298624/
+      - row "53 大闹天宫 9.4 51万 万籁鸣 Laiming Wan 1961 剧情 动画 奇幻 古装 详情" [ref=e552]:
+        - cell "53" [ref=e553]
+        - cell "大闹天宫" [ref=e554]
+        - cell "9.4" [ref=e555]
+        - cell "51万" [ref=e556]
+        - cell "万籁鸣 Laiming Wan" [ref=e557]
+        - cell "1961" [ref=e558]
+        - cell "剧情 动画 奇幻 古装" [ref=e559]
+        - cell "详情" [ref=e560]:
+          - link "详情" [ref=e561] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1418019/
+      - row "54 黑客帝国 9.1 95万 安迪·沃卓斯基 Andy Wachowski / 拉娜·沃卓斯基 Lana Wachowski 1999 动作 科幻 详情" [ref=e562]:
+        - cell "54" [ref=e563]
+        - cell "黑客帝国" [ref=e564]
+        - cell "9.1" [ref=e565]
+        - cell "95万" [ref=e566]
+        - cell "安迪·沃卓斯基 Andy Wachowski / 拉娜·沃卓斯基 Lana Wachowski" [ref=e567]
+        - cell "1999" [ref=e568]
+        - cell "动作 科幻" [ref=e569]
+        - cell "详情" [ref=e570]:
+          - link "详情" [ref=e571] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291843/
+      - row "55 指环王1：护戒使者 9.1 96万 彼得·杰克逊 Peter Jackson 2001 剧情 动作 奇幻 冒险 详情" [ref=e572]:
+        - cell "55" [ref=e573]
+        - cell "指环王1：护戒使者" [ref=e574]
+        - cell "9.1" [ref=e575]
+        - cell "96万" [ref=e576]
+        - cell "彼得·杰克逊 Peter Jackson" [ref=e577]
+        - cell "2001" [ref=e578]
+        - cell "剧情 动作 奇幻 冒险" [ref=e579]
+        - cell "详情" [ref=e580]:
+          - link "详情" [ref=e581] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291571/
+      - row "56 罗马假日 9.1 105万 威廉·惠勒 William Wyler 1953 喜剧 剧情 爱情 详情" [ref=e582]:
+        - cell "56" [ref=e583]
+        - cell "罗马假日" [ref=e584]
+        - cell "9.1" [ref=e585]
+        - cell "105万" [ref=e586]
+        - cell "威廉·惠勒 William Wyler" [ref=e587]
+        - cell "1953" [ref=e588]
+        - cell "喜剧 剧情 爱情" [ref=e589]
+        - cell "详情" [ref=e590]:
+          - link "详情" [ref=e591] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293839/
+      - row "57 教父2 9.3 64万 弗朗西斯·福特·科波拉 Francis Ford Coppola 1974 剧情 犯罪 详情" [ref=e592]:
+        - cell "57" [ref=e593]
+        - cell "教父2" [ref=e594]
+        - cell "9.3" [ref=e595]
+        - cell "64万" [ref=e596]
+        - cell "弗朗西斯·福特·科波拉 Francis Ford Coppola" [ref=e597]
+        - cell "1974" [ref=e598]
+        - cell "剧情 犯罪" [ref=e599]
+        - cell "详情" [ref=e600]:
+          - link "详情" [ref=e601] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1299131/
+      - row "58 狮子王 9.1 97万 Roger Allers / 罗伯·明可夫 Rob Minkoff 1994 动画 冒险 歌舞 详情" [ref=e602]:
+        - cell "58" [ref=e603]
+        - cell "狮子王" [ref=e604]
+        - cell "9.1" [ref=e605]
+        - cell "97万" [ref=e606]
+        - cell "Roger Allers / 罗伯·明可夫 Rob Minkoff" [ref=e607]
+        - cell "1994" [ref=e608]
+        - cell "动画 冒险 歌舞" [ref=e609]
+        - cell "详情" [ref=e610]:
+          - link "详情" [ref=e611] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1301753/
+      - row "59 天堂电影院 9.2 74万 朱塞佩·托纳多雷 Giuseppe Tornatore 1988 剧情 爱情 详情" [ref=e612]:
+        - cell "59" [ref=e613]
+        - cell "天堂电影院" [ref=e614]
+        - cell "9.2" [ref=e615]
+        - cell "74万" [ref=e616]
+        - cell "朱塞佩·托纳多雷 Giuseppe Tornatore" [ref=e617]
+        - cell "1988" [ref=e618]
+        - cell "剧情 爱情" [ref=e619]
+        - cell "详情" [ref=e620]:
+          - link "详情" [ref=e621] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291828/
+      - row "60 饮食男女 9.2 73万 李安 Ang Lee 1994 剧情 家庭 详情" [ref=e622]:
+        - cell "60" [ref=e623]
+        - cell "饮食男女" [ref=e624]
+        - cell "9.2" [ref=e625]
+        - cell "73万" [ref=e626]
+        - cell "李安 Ang Lee" [ref=e627]
+        - cell "1994" [ref=e628]
+        - cell "剧情 家庭" [ref=e629]
+        - cell "详情" [ref=e630]:
+          - link "详情" [ref=e631] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291818/
+      - row "61 辩护人 9.2 66万 杨宇硕 Woo-seok Yang 2013 剧情 详情" [ref=e632]:
+        - cell "61" [ref=e633]
+        - cell "辩护人" [ref=e634]
+        - cell "9.2" [ref=e635]
+        - cell "66万" [ref=e636]
+        - cell "杨宇硕 Woo-seok Yang" [ref=e637]
+        - cell "2013" [ref=e638]
+        - cell "剧情" [ref=e639]
+        - cell "详情" [ref=e640]:
+          - link "详情" [ref=e641] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/21937445/
+      - row "62 本杰明·巴顿奇事 9 111万 大卫·芬奇 David Fincher 2008 剧情 爱情 奇幻 详情" [ref=e642]:
+        - cell "62" [ref=e643]
+        - cell "本杰明·巴顿奇事" [ref=e644]
+        - cell "9" [ref=e645]
+        - cell "111万" [ref=e646]
+        - cell "大卫·芬奇 David Fincher" [ref=e647]
+        - cell "2008" [ref=e648]
+        - cell "剧情 爱情 奇幻" [ref=e649]
+        - cell "详情" [ref=e650]:
+          - link "详情" [ref=e651] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1485260/
+      - row "63 搏击俱乐部 9 98万 大卫·芬奇 David Fincher 1999 剧情 动作 悬疑 惊悚 详情" [ref=e652]:
+        - cell "63" [ref=e653]
+        - cell "搏击俱乐部" [ref=e654]
+        - cell "9" [ref=e655]
+        - cell "98万" [ref=e656]
+        - cell "大卫·芬奇 David Fincher" [ref=e657]
+        - cell "1999" [ref=e658]
+        - cell "剧情 动作 悬疑 惊悚" [ref=e659]
+        - cell "详情" [ref=e660]:
+          - link "详情" [ref=e661] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292000/
+      - row "64 美丽心灵 9.1 86万 朗·霍华德 Ron Howard 2001 传记 剧情 详情" [ref=e662]:
+        - cell "64" [ref=e663]
+        - cell "美丽心灵" [ref=e664]
+        - cell "9.1" [ref=e665]
+        - cell "86万" [ref=e666]
+        - cell "朗·霍华德 Ron Howard" [ref=e667]
+        - cell "2001" [ref=e668]
+        - cell "传记 剧情" [ref=e669]
+        - cell "详情" [ref=e670]:
+          - link "详情" [ref=e671] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1306029/
+      - row "65 穿条纹睡衣的男孩 9.2 64万 马克·赫尔曼 Mark Herman 2008 剧情 战争 详情" [ref=e672]:
+        - cell "65" [ref=e673]
+        - cell "穿条纹睡衣的男孩" [ref=e674]
+        - cell "9.2" [ref=e675]
+        - cell "64万" [ref=e676]
+        - cell "马克·赫尔曼 Mark Herman" [ref=e677]
+        - cell "2008" [ref=e678]
+        - cell "剧情 战争" [ref=e679]
+        - cell "详情" [ref=e680]:
+          - link "详情" [ref=e681] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3008247/
+      - row "66 哈利·波特与死亡圣器(下) 9 98万 大卫·叶茨 David Yates 2011 奇幻 冒险 详情" [ref=e682]:
+        - cell "66" [ref=e683]
+        - cell "哈利·波特与死亡圣器(下)" [ref=e684]
+        - cell "9" [ref=e685]
+        - cell "98万" [ref=e686]
+        - cell "大卫·叶茨 David Yates" [ref=e687]
+        - cell "2011" [ref=e688]
+        - cell "奇幻 冒险" [ref=e689]
+        - cell "详情" [ref=e690]:
+          - link "详情" [ref=e691] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3011235/
+      - row "67 两杆大烟枪 9.1 68万 盖·里奇 Guy Ritchie 1998 剧情 喜剧 犯罪 详情" [ref=e692]:
+        - cell "67" [ref=e693]
+        - cell "两杆大烟枪" [ref=e694]
+        - cell "9.1" [ref=e695]
+        - cell "68万" [ref=e696]
+        - cell "盖·里奇 Guy Ritchie" [ref=e697]
+        - cell "1998" [ref=e698]
+        - cell "剧情 喜剧 犯罪" [ref=e699]
+        - cell "详情" [ref=e700]:
+          - link "详情" [ref=e701] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293350/
+      - row "68 情书 8.9 133万 岩井俊二 Shunji Iwai 1995 剧情 爱情 详情" [ref=e702]:
+        - cell "68" [ref=e703]
+        - cell "情书" [ref=e704]
+        - cell "8.9" [ref=e705]
+        - cell "133万" [ref=e706]
+        - cell "岩井俊二 Shunji Iwai" [ref=e707]
+        - cell "1995" [ref=e708]
+        - cell "剧情 爱情" [ref=e709]
+        - cell "详情" [ref=e710]:
+          - link "详情" [ref=e711] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292220/
+      - row "69 窃听风暴 9.2 63万 弗洛里安·亨克尔·冯·多纳斯马尔克 Florian Henckel von Donnersmarck 2006 剧情 悬疑 详情" [ref=e712]:
+        - cell "69" [ref=e713]
+        - cell "窃听风暴" [ref=e714]
+        - cell "9.2" [ref=e715]
+        - cell "63万" [ref=e716]
+        - cell "弗洛里安·亨克尔·冯·多纳斯马尔克 Florian Henckel von Donnersmarck" [ref=e717]
+        - cell "2006" [ref=e718]
+        - cell "剧情 悬疑" [ref=e719]
+        - cell "详情" [ref=e720]:
+          - link "详情" [ref=e721] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1900841/
+      - row "70 功夫 8.9 134万 周星驰 Stephen Chow 2004 动作 喜剧 犯罪 奇幻 详情" [ref=e722]:
+        - cell "70" [ref=e723]
+        - cell "功夫" [ref=e724]
+        - cell "8.9" [ref=e725]
+        - cell "134万" [ref=e726]
+        - cell "周星驰 Stephen Chow" [ref=e727]
+        - cell "2004" [ref=e728]
+        - cell "动作 喜剧 犯罪 奇幻" [ref=e729]
+        - cell "详情" [ref=e730]:
+          - link "详情" [ref=e731] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291543/
+      - row "71 音乐之声 9.1 69万 罗伯特·怀斯 Robert Wise 1965 剧情 传记 爱情 歌舞 详情" [ref=e732]:
+        - cell "71" [ref=e733]
+        - cell "音乐之声" [ref=e734]
+        - cell "9.1" [ref=e735]
+        - cell "69万" [ref=e736]
+        - cell "罗伯特·怀斯 Robert Wise" [ref=e737]
+        - cell "1965" [ref=e738]
+        - cell "剧情 传记 爱情 歌舞" [ref=e739]
+        - cell "详情" [ref=e740]:
+          - link "详情" [ref=e741] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1294408/
+      - row "72 哈利·波特与阿兹卡班的囚徒 9 90万 阿方索·卡隆 Alfonso Cuarón 2004 奇幻 冒险 详情" [ref=e742]:
+        - cell "72" [ref=e743]
+        - cell "哈利·波特与阿兹卡班的囚徒" [ref=e744]
+        - cell "9" [ref=e745]
+        - cell "90万" [ref=e746]
+        - cell "阿方索·卡隆 Alfonso Cuarón" [ref=e747]
+        - cell "2004" [ref=e748]
+        - cell "奇幻 冒险" [ref=e749]
+        - cell "详情" [ref=e750]:
+          - link "详情" [ref=e751] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291544/
+      - row "73 阿凡达 8.8 159万 詹姆斯·卡梅隆 James Cameron 2009 动作 科幻 冒险 详情" [ref=e752]:
+        - cell "73" [ref=e753]
+        - cell "阿凡达" [ref=e754]
+        - cell "8.8" [ref=e755]
+        - cell "159万" [ref=e756]
+        - cell "詹姆斯·卡梅隆 James Cameron" [ref=e757]
+        - cell "2009" [ref=e758]
+        - cell "动作 科幻 冒险" [ref=e759]
+        - cell "详情" [ref=e760]:
+          - link "详情" [ref=e761] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1652587/
+      - row "74 西西里的美丽传说 8.9 110万 朱塞佩·托纳多雷 Giuseppe Tornatore 2000 剧情 战争 情色 详情" [ref=e762]:
+        - cell "74" [ref=e763]
+        - cell "西西里的美丽传说" [ref=e764]
+        - cell "8.9" [ref=e765]
+        - cell "110万" [ref=e766]
+        - cell "朱塞佩·托纳多雷 Giuseppe Tornatore" [ref=e767]
+        - cell "2000" [ref=e768]
+        - cell "剧情 战争 情色" [ref=e769]
+        - cell "详情" [ref=e770]:
+          - link "详情" [ref=e771] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292402/
+      - row "75 看不见的客人 8.8 145万 奥里奥尔·保罗 Oriol Paulo 2016 剧情 犯罪 悬疑 惊悚 详情" [ref=e772]:
+        - cell "75" [ref=e773]
+        - cell "看不见的客人" [ref=e774]
+        - cell "8.8" [ref=e775]
+        - cell "145万" [ref=e776]
+        - cell "奥里奥尔·保罗 Oriol Paulo" [ref=e777]
+        - cell "2016" [ref=e778]
+        - cell "剧情 犯罪 悬疑 惊悚" [ref=e779]
+        - cell "详情" [ref=e780]:
+          - link "详情" [ref=e781] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26580232/
+      - row "76 拯救大兵瑞恩 9.1 73万 史蒂文·斯皮尔伯格 Steven Spielberg 1998 剧情 战争 详情" [ref=e782]:
+        - cell "76" [ref=e783]
+        - cell "拯救大兵瑞恩" [ref=e784]
+        - cell "9.1" [ref=e785]
+        - cell "73万" [ref=e786]
+        - cell "史蒂文·斯皮尔伯格 Steven Spielberg" [ref=e787]
+        - cell "1998" [ref=e788]
+        - cell "剧情 战争" [ref=e789]
+        - cell "详情" [ref=e790]:
+          - link "详情" [ref=e791] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292849/
+      - row "77 沉默的羔羊 8.9 102万 乔纳森·戴米 Jonathan Demme 1991 剧情 犯罪 惊悚 详情" [ref=e792]:
+        - cell "77" [ref=e793]
+        - cell "沉默的羔羊" [ref=e794]
+        - cell "8.9" [ref=e795]
+        - cell "102万" [ref=e796]
+        - cell "乔纳森·戴米 Jonathan Demme" [ref=e797]
+        - cell "1991" [ref=e798]
+        - cell "剧情 犯罪 惊悚" [ref=e799]
+        - cell "详情" [ref=e800]:
+          - link "详情" [ref=e801] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293544/
+      - row "78 小鞋子 9.2 47万 马基德·马基迪 Majid Majidi 1997 剧情 儿童 家庭 详情" [ref=e802]:
+        - cell "78" [ref=e803]
+        - cell "小鞋子" [ref=e804]
+        - cell "9.2" [ref=e805]
+        - cell "47万" [ref=e806]
+        - cell "马基德·马基迪 Majid Majidi" [ref=e807]
+        - cell "1997" [ref=e808]
+        - cell "剧情 儿童 家庭" [ref=e809]
+        - cell "详情" [ref=e810]:
+          - link "详情" [ref=e811] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1303021/
+      - row "79 蝴蝶效应 8.9 107万 埃里克·布雷斯 Eric Bress / J·麦基·格鲁伯 J. Mackye Gruber 2004 剧情 悬疑 科幻 惊悚 详情" [ref=e812]:
+        - cell "79" [ref=e813]
+        - cell "蝴蝶效应" [ref=e814]
+        - cell "8.9" [ref=e815]
+        - cell "107万" [ref=e816]
+        - cell "埃里克·布雷斯 Eric Bress / J·麦基·格鲁伯 J. Mackye Gruber" [ref=e817]
+        - cell "2004" [ref=e818]
+        - cell "剧情 悬疑 科幻 惊悚" [ref=e819]
+        - cell "详情" [ref=e820]:
+          - link "详情" [ref=e821] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292343/
+      - row "80 布达佩斯大饭店 8.9 109万 韦斯·安德森 Wes Anderson 2014 剧情 喜剧 冒险 详情" [ref=e822]:
+        - cell "80" [ref=e823]
+        - cell "布达佩斯大饭店" [ref=e824]
+        - cell "8.9" [ref=e825]
+        - cell "109万" [ref=e826]
+        - cell "韦斯·安德森 Wes Anderson" [ref=e827]
+        - cell "2014" [ref=e828]
+        - cell "剧情 喜剧 冒险" [ref=e829]
+        - cell "详情" [ref=e830]:
+          - link "详情" [ref=e831] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/11525673/
+      - row "81 还有明天 9.3 38万 宝拉·柯特莱西 Paola Cortellesi 2023 剧情 喜剧 历史 详情" [ref=e832]:
+        - cell "81" [ref=e833]
+        - cell "还有明天" [ref=e834]
+        - cell "9.3" [ref=e835]
+        - cell "38万" [ref=e836]
+        - cell "宝拉·柯特莱西 Paola Cortellesi" [ref=e837]
+        - cell "2023" [ref=e838]
+        - cell "剧情 喜剧 历史" [ref=e839]
+        - cell "详情" [ref=e840]:
+          - link "详情" [ref=e841] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/36445098/
+      - row "82 飞越疯人院 9.1 61万 米洛斯·福尔曼 Miloš Forman 1975 剧情 详情" [ref=e842]:
+        - cell "82" [ref=e843]
+        - cell "飞越疯人院" [ref=e844]
+        - cell "9.1" [ref=e845]
+        - cell "61万" [ref=e846]
+        - cell "米洛斯·福尔曼 Miloš Forman" [ref=e847]
+        - cell "1975" [ref=e848]
+        - cell "剧情" [ref=e849]
+        - cell "详情" [ref=e850]:
+          - link "详情" [ref=e851] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292224/
+      - row "83 禁闭岛 8.9 112万 Martin Scorsese 2010 剧情 悬疑 惊悚 详情" [ref=e852]:
+        - cell "83" [ref=e853]
+        - cell "禁闭岛" [ref=e854]
+        - cell "8.9" [ref=e855]
+        - cell "112万" [ref=e856]
+        - cell "Martin Scorsese" [ref=e857]
+        - cell "2010" [ref=e858]
+        - cell "剧情 悬疑 惊悚" [ref=e859]
+        - cell "详情" [ref=e860]:
+          - link "详情" [ref=e861] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/2334904/
+      - row "84 心灵捕手 9 82万 格斯·范·桑特 Gus Van Sant 1997 剧情 详情" [ref=e862]:
+        - cell "84" [ref=e863]
+        - cell "心灵捕手" [ref=e864]
+        - cell "9" [ref=e865]
+        - cell "82万" [ref=e866]
+        - cell "格斯·范·桑特 Gus Van Sant" [ref=e867]
+        - cell "1997" [ref=e868]
+        - cell "剧情" [ref=e869]
+        - cell "详情" [ref=e870]:
+          - link "详情" [ref=e871] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292656/
+      - row "85 致命魔术 8.9 97万 克里斯托弗·诺兰 Christopher Nolan 2006 剧情 悬疑 惊悚 详情" [ref=e872]:
+        - cell "85" [ref=e873]
+        - cell "致命魔术" [ref=e874]
+        - cell "8.9" [ref=e875]
+        - cell "97万" [ref=e876]
+        - cell "克里斯托弗·诺兰 Christopher Nolan" [ref=e877]
+        - cell "2006" [ref=e878]
+        - cell "剧情 悬疑 惊悚" [ref=e879]
+        - cell "详情" [ref=e880]:
+          - link "详情" [ref=e881] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1780330/
+      - row "86 低俗小说 8.9 96万 昆汀·塔伦蒂诺 Quentin Tarantino 1994 剧情 喜剧 犯罪 详情" [ref=e882]:
+        - cell "86" [ref=e883]
+        - cell "低俗小说" [ref=e884]
+        - cell "8.9" [ref=e885]
+        - cell "96万" [ref=e886]
+        - cell "昆汀·塔伦蒂诺 Quentin Tarantino" [ref=e887]
+        - cell "1994" [ref=e888]
+        - cell "剧情 喜剧 犯罪" [ref=e889]
+        - cell "详情" [ref=e890]:
+          - link "详情" [ref=e891] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291832/
+      - row "87 哈利·波特与密室 8.9 92万 Chris Columbus 2002 奇幻 冒险 详情" [ref=e892]:
+        - cell "87" [ref=e893]
+        - cell "哈利·波特与密室" [ref=e894]
+        - cell "8.9" [ref=e895]
+        - cell "92万" [ref=e896]
+        - cell "Chris Columbus" [ref=e897]
+        - cell "2002" [ref=e898]
+        - cell "奇幻 冒险" [ref=e899]
+        - cell "详情" [ref=e900]:
+          - link "详情" [ref=e901] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1296996/
+      - row "88 超脱 9 73万 托尼·凯耶 Tony Kaye 2011 剧情 详情" [ref=e902]:
+        - cell "88" [ref=e903]
+        - cell "超脱" [ref=e904]
+        - cell "9" [ref=e905]
+        - cell "73万" [ref=e906]
+        - cell "托尼·凯耶 Tony Kaye" [ref=e907]
+        - cell "2011" [ref=e908]
+        - cell "剧情" [ref=e909]
+        - cell "详情" [ref=e910]:
+          - link "详情" [ref=e911] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/5322596/
+      - row "89 一一 9.1 52万 杨德昌 Edward Yang 2000 剧情 爱情 家庭 详情" [ref=e912]:
+        - cell "89" [ref=e913]
+        - cell "一一" [ref=e914]
+        - cell "9.1" [ref=e915]
+        - cell "52万" [ref=e916]
+        - cell "杨德昌 Edward Yang" [ref=e917]
+        - cell "2000" [ref=e918]
+        - cell "剧情 爱情 家庭" [ref=e919]
+        - cell "详情" [ref=e920]:
+          - link "详情" [ref=e921] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292434/
+      - row "90 喜剧之王 8.8 110万 周星驰 Stephen Chow / 李力持 Lik-Chi Lee 1999 喜剧 剧情 爱情 详情" [ref=e922]:
+        - cell "90" [ref=e923]
+        - cell "喜剧之王" [ref=e924]
+        - cell "8.8" [ref=e925]
+        - cell "110万" [ref=e926]
+        - cell "周星驰 Stephen Chow / 李力持 Lik-Chi Lee" [ref=e927]
+        - cell "1999" [ref=e928]
+        - cell "喜剧 剧情 爱情" [ref=e929]
+        - cell "详情" [ref=e930]:
+          - link "详情" [ref=e931] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1302425/
+      - row "91 杀人回忆 8.9 84万 奉俊昊 Joon-ho Bong 2003 剧情 动作 犯罪 悬疑 惊悚 详情" [ref=e932]:
+        - cell "91" [ref=e933]
+        - cell "杀人回忆" [ref=e934]
+        - cell "8.9" [ref=e935]
+        - cell "84万" [ref=e936]
+        - cell "奉俊昊 Joon-ho Bong" [ref=e937]
+        - cell "2003" [ref=e938]
+        - cell "剧情 动作 犯罪 悬疑 惊悚" [ref=e939]
+        - cell "详情" [ref=e940]:
+          - link "详情" [ref=e941] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1300299/
+      - row "92 致命ID 8.9 96万 詹姆斯·曼高德 James Mangold 2003 剧情 悬疑 惊悚 详情" [ref=e942]:
+        - cell "92" [ref=e943]
+        - cell "致命ID" [ref=e944]
+        - cell "8.9" [ref=e945]
+        - cell "96万" [ref=e946]
+        - cell "詹姆斯·曼高德 James Mangold" [ref=e947]
+        - cell "2003" [ref=e948]
+        - cell "剧情 悬疑 惊悚" [ref=e949]
+        - cell "详情" [ref=e950]:
+          - link "详情" [ref=e951] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1297192/
+      - row "93 摩登时代 9.3 35万 查理·卓别林 Charles Chaplin 1936 剧情 喜剧 爱情 详情" [ref=e952]:
+        - cell "93" [ref=e953]
+        - cell "摩登时代" [ref=e954]
+        - cell "9.3" [ref=e955]
+        - cell "35万" [ref=e956]
+        - cell "查理·卓别林 Charles Chaplin" [ref=e957]
+        - cell "1936" [ref=e958]
+        - cell "剧情 喜剧 爱情" [ref=e959]
+        - cell "详情" [ref=e960]:
+          - link "详情" [ref=e961] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1294371/
+      - row "94 春光乍泄 9 71万 王家卫 Kar Wai Wong 1997 剧情 爱情 同性 详情" [ref=e962]:
+        - cell "94" [ref=e963]
+        - cell "春光乍泄" [ref=e964]
+        - cell "9" [ref=e965]
+        - cell "71万" [ref=e966]
+        - cell "王家卫 Kar Wai Wong" [ref=e967]
+        - cell "1997" [ref=e968]
+        - cell "剧情 爱情 同性" [ref=e969]
+        - cell "详情" [ref=e970]:
+          - link "详情" [ref=e971] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292679/
+      - row "95 加勒比海盗 8.8 97万 戈尔·维宾斯基 Gore Verbinski 2003 动作 冒险 奇幻 详情" [ref=e972]:
+        - cell "95" [ref=e973]
+        - cell "加勒比海盗" [ref=e974]
+        - cell "8.8" [ref=e975]
+        - cell "97万" [ref=e976]
+        - cell "戈尔·维宾斯基 Gore Verbinski" [ref=e977]
+        - cell "2003" [ref=e978]
+        - cell "动作 冒险 奇幻" [ref=e979]
+        - cell "详情" [ref=e980]:
+          - link "详情" [ref=e981] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1298070/
+      - row "96 海豚湾 9.3 38万 路易·西霍尤斯 Louie Psihoyos 2009 纪录片 详情" [ref=e982]:
+        - cell "96" [ref=e983]
+        - cell "海豚湾" [ref=e984]
+        - cell "9.3" [ref=e985]
+        - cell "38万" [ref=e986]
+        - cell "路易·西霍尤斯 Louie Psihoyos" [ref=e987]
+        - cell "2009" [ref=e988]
+        - cell "纪录片" [ref=e989]
+        - cell "详情" [ref=e990]:
+          - link "详情" [ref=e991] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3442220/
+      - row "97 美国往事 9.1 47万 赛尔乔·莱翁内 Sergio Leone 1984 犯罪 剧情 详情" [ref=e992]:
+        - cell "97" [ref=e993]
+        - cell "美国往事" [ref=e994]
+        - cell "9.1" [ref=e995]
+        - cell "47万" [ref=e996]
+        - cell "赛尔乔·莱翁内 Sergio Leone" [ref=e997]
+        - cell "1984" [ref=e998]
+        - cell "犯罪 剧情" [ref=e999]
+        - cell "详情" [ref=e1000]:
+          - link "详情" [ref=e1001] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292262/
+      - row "98 红辣椒 9 58万 今敏 Satoshi Kon 2006 动画 悬疑 科幻 惊悚 详情" [ref=e1002]:
+        - cell "98" [ref=e1003]
+        - cell "红辣椒" [ref=e1004]
+        - cell "9" [ref=e1005]
+        - cell "58万" [ref=e1006]
+        - cell "今敏 Satoshi Kon" [ref=e1007]
+        - cell "2006" [ref=e1008]
+        - cell "动画 悬疑 科幻 惊悚" [ref=e1009]
+        - cell "详情" [ref=e1010]:
+          - link "详情" [ref=e1011] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1865703/
+      - row "99 七宗罪 8.8 107万 大卫·芬奇 David Fincher 1995 剧情 犯罪 悬疑 惊悚 详情" [ref=e1012]:
+        - cell "99" [ref=e1013]
+        - cell "七宗罪" [ref=e1014]
+        - cell "8.8" [ref=e1015]
+        - cell "107万" [ref=e1016]
+        - cell "大卫·芬奇 David Fincher" [ref=e1017]
+        - cell "1995" [ref=e1018]
+        - cell "剧情 犯罪 悬疑 惊悚" [ref=e1019]
+        - cell "详情" [ref=e1020]:
+          - link "详情" [ref=e1021] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292223/
+      - row "100 唐伯虎点秋香 8.8 123万 李力持 Lik-Chi Lee 1993 喜剧 爱情 古装 详情" [ref=e1022]:
+        - cell "100" [ref=e1023]
+        - cell "唐伯虎点秋香" [ref=e1024]
+        - cell "8.8" [ref=e1025]
+        - cell "123万" [ref=e1026]
+        - cell "李力持 Lik-Chi Lee" [ref=e1027]
+        - cell "1993" [ref=e1028]
+        - cell "喜剧 爱情 古装" [ref=e1029]
+        - cell "详情" [ref=e1030]:
+          - link "详情" [ref=e1031] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1306249/
+      - row "101 狩猎 9.1 47万 托马斯·温特伯格 Thomas Vinterberg 2012 剧情 详情" [ref=e1032]:
+        - cell "101" [ref=e1033]
+        - cell "狩猎" [ref=e1034]
+        - cell "9.1" [ref=e1035]
+        - cell "47万" [ref=e1036]
+        - cell "托马斯·温特伯格 Thomas Vinterberg" [ref=e1037]
+        - cell "2012" [ref=e1038]
+        - cell "剧情" [ref=e1039]
+        - cell "详情" [ref=e1040]:
+          - link "详情" [ref=e1041] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/6985810/
+      - row "102 幽灵公主 8.9 67万 宫崎骏 Hayao Miyazaki 1997 动画 奇幻 冒险 详情" [ref=e1042]:
+        - cell "102" [ref=e1043]
+        - cell "幽灵公主" [ref=e1044]
+        - cell "8.9" [ref=e1045]
+        - cell "67万" [ref=e1046]
+        - cell "宫崎骏 Hayao Miyazaki" [ref=e1047]
+        - cell "1997" [ref=e1048]
+        - cell "动画 奇幻 冒险" [ref=e1049]
+        - cell "详情" [ref=e1050]:
+          - link "详情" [ref=e1051] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1297359/
+      - row "103 寄生虫 8.8 156万 奉俊昊 Joon-ho Bong 2019 剧情 详情" [ref=e1052]:
+        - cell "103" [ref=e1053]
+        - cell "寄生虫" [ref=e1054]
+        - cell "8.8" [ref=e1055]
+        - cell "156万" [ref=e1056]
+        - cell "奉俊昊 Joon-ho Bong" [ref=e1057]
+        - cell "2019" [ref=e1058]
+        - cell "剧情" [ref=e1059]
+        - cell "详情" [ref=e1060]:
+          - link "详情" [ref=e1061] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/27010768/
+      - row "104 甜蜜蜜 8.9 68万 陈可辛 Peter Chan 1996 剧情 爱情 详情" [ref=e1062]:
+        - cell "104" [ref=e1063]
+        - cell "甜蜜蜜" [ref=e1064]
+        - cell "8.9" [ref=e1065]
+        - cell "68万" [ref=e1066]
+        - cell "陈可辛 Peter Chan" [ref=e1067]
+        - cell "1996" [ref=e1068]
+        - cell "剧情 爱情" [ref=e1069]
+        - cell "详情" [ref=e1070]:
+          - link "详情" [ref=e1071] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1305164/
+      - row "105 天书奇谭 9.2 34万 王树忱 Shuchen Wang / 钱运达 Yunda Qian 1983 动画 奇幻 详情" [ref=e1072]:
+        - cell "105" [ref=e1073]
+        - cell "天书奇谭" [ref=e1074]
+        - cell "9.2" [ref=e1075]
+        - cell "34万" [ref=e1076]
+        - cell "王树忱 Shuchen Wang / 钱运达 Yunda Qian" [ref=e1077]
+        - cell "1983" [ref=e1078]
+        - cell "动画 奇幻" [ref=e1079]
+        - cell "详情" [ref=e1080]:
+          - link "详情" [ref=e1081] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1428581/
+      - row "106 蝙蝠侠：黑暗骑士崛起 8.9 82万 克里斯托弗·诺兰 Christopher Nolan 2012 剧情 动作 科幻 犯罪 惊悚 详情" [ref=e1082]:
+        - cell "106" [ref=e1083]
+        - cell "蝙蝠侠：黑暗骑士崛起" [ref=e1084]
+        - cell "8.9" [ref=e1085]
+        - cell "82万" [ref=e1086]
+        - cell "克里斯托弗·诺兰 Christopher Nolan" [ref=e1087]
+        - cell "2012" [ref=e1088]
+        - cell "剧情 动作 科幻 犯罪 惊悚" [ref=e1089]
+        - cell "详情" [ref=e1090]:
+          - link "详情" [ref=e1091] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3395373/
+      - row "107 超能陆战队 8.8 115万 唐·霍尔 Don Hall / 克里斯·威廉姆斯 Chris Williams 2014 喜剧 动作 科幻 动画 冒险 详情" [ref=e1092]:
+        - cell "107" [ref=e1093]
+        - cell "超能陆战队" [ref=e1094]
+        - cell "8.8" [ref=e1095]
+        - cell "115万" [ref=e1096]
+        - cell "唐·霍尔 Don Hall / 克里斯·威廉姆斯 Chris Williams" [ref=e1097]
+        - cell "2014" [ref=e1098]
+        - cell "喜剧 动作 科幻 动画 冒险" [ref=e1099]
+        - cell "详情" [ref=e1100]:
+          - link "详情" [ref=e1101] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/11026735/
+      - row "108 7号房的礼物 8.9 63万 李焕庆 Hwan-kyeong Lee 2013 剧情 喜剧 家庭 详情" [ref=e1102]:
+        - cell "108" [ref=e1103]
+        - cell "7号房的礼物" [ref=e1104]
+        - cell "8.9" [ref=e1105]
+        - cell "63万" [ref=e1106]
+        - cell "李焕庆 Hwan-kyeong Lee" [ref=e1107]
+        - cell "2013" [ref=e1108]
+        - cell "剧情 喜剧 家庭" [ref=e1109]
+        - cell "详情" [ref=e1110]:
+          - link "详情" [ref=e1111] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/10777687/
+      - row "109 茶馆 9.5 21万 谢添 Tian Xie 1982 剧情 历史 详情" [ref=e1112]:
+        - cell "109" [ref=e1113]
+        - cell "茶馆" [ref=e1114]
+        - cell "9.5" [ref=e1115]
+        - cell "21万" [ref=e1116]
+        - cell "谢添 Tian Xie" [ref=e1117]
+        - cell "1982" [ref=e1118]
+        - cell "剧情 历史" [ref=e1119]
+        - cell "详情" [ref=e1120]:
+          - link "详情" [ref=e1121] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1461403/
+      - row "110 第六感 8.9 64万 M·奈特·沙马兰 M. Night Shyamalan 1999 剧情 悬疑 惊悚 详情" [ref=e1122]:
+        - cell "110" [ref=e1123]
+        - cell "第六感" [ref=e1124]
+        - cell "8.9" [ref=e1125]
+        - cell "64万" [ref=e1126]
+        - cell "M·奈特·沙马兰 M. Night Shyamalan" [ref=e1127]
+        - cell "1999" [ref=e1128]
+        - cell "剧情 悬疑 惊悚" [ref=e1129]
+        - cell "详情" [ref=e1130]:
+          - link "详情" [ref=e1131] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1297630/
+      - row "111 爱在黎明破晓前 8.8 81万 理查德·林克莱特 Richard Linklater 1995 剧情 爱情 详情" [ref=e1132]:
+        - cell "111" [ref=e1133]
+        - cell "爱在黎明破晓前" [ref=e1134]
+        - cell "8.8" [ref=e1135]
+        - cell "81万" [ref=e1136]
+        - cell "理查德·林克莱特 Richard Linklater" [ref=e1137]
+        - cell "1995" [ref=e1138]
+        - cell "剧情 爱情" [ref=e1139]
+        - cell "详情" [ref=e1140]:
+          - link "详情" [ref=e1141] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1296339/
+      - row "112 爱在日落黄昏时 8.9 66万 理查德·林克莱特 Richard Linklater 2004 剧情 爱情 详情" [ref=e1142]:
+        - cell "112" [ref=e1143]
+        - cell "爱在日落黄昏时" [ref=e1144]
+        - cell "8.9" [ref=e1145]
+        - cell "66万" [ref=e1146]
+        - cell "理查德·林克莱特 Richard Linklater" [ref=e1147]
+        - cell "2004" [ref=e1148]
+        - cell "剧情 爱情" [ref=e1149]
+        - cell "详情" [ref=e1150]:
+          - link "详情" [ref=e1151] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291990/
+      - row "113 头脑特工队 8.8 81万 彼特·道格特 Pete Docter / 罗纳尔多·德尔·卡门 Ronaldo Del Carmen 2015 喜剧 动画 冒险 详情" [ref=e1152]:
+        - cell "113" [ref=e1153]
+        - cell "头脑特工队" [ref=e1154]
+        - cell "8.8" [ref=e1155]
+        - cell "81万" [ref=e1156]
+        - cell "彼特·道格特 Pete Docter / 罗纳尔多·德尔·卡门 Ronaldo Del Carmen" [ref=e1157]
+        - cell "2015" [ref=e1158]
+        - cell "喜剧 动画 冒险" [ref=e1159]
+        - cell "详情" [ref=e1160]:
+          - link "详情" [ref=e1161] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/10533913/
+      - row "114 被嫌弃的松子的一生 8.8 78万 中岛哲也 Tetsuya Nakashima 2006 剧情 歌舞 详情" [ref=e1162]:
+        - cell "114" [ref=e1163]
+        - cell "被嫌弃的松子的一生" [ref=e1164]
+        - cell "8.8" [ref=e1165]
+        - cell "78万" [ref=e1166]
+        - cell "中岛哲也 Tetsuya Nakashima" [ref=e1167]
+        - cell "2006" [ref=e1168]
+        - cell "剧情 歌舞" [ref=e1169]
+        - cell "详情" [ref=e1170]:
+          - link "详情" [ref=e1171] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1787291/
+      - row "115 哈利·波特与火焰杯 8.8 81万 迈克·内威尔 Mike Newell 2005 悬疑 奇幻 冒险 详情" [ref=e1172]:
+        - cell "115" [ref=e1173]
+        - cell "哈利·波特与火焰杯" [ref=e1174]
+        - cell "8.8" [ref=e1175]
+        - cell "81万" [ref=e1176]
+        - cell "迈克·内威尔 Mike Newell" [ref=e1177]
+        - cell "2005" [ref=e1178]
+        - cell "悬疑 奇幻 冒险" [ref=e1179]
+        - cell "详情" [ref=e1180]:
+          - link "详情" [ref=e1181] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1309055/
+      - row "116 未麻的部屋 9.1 43万 今敏 Satoshi Kon 1997 剧情 犯罪 动画 悬疑 惊悚 详情" [ref=e1182]:
+        - cell "116" [ref=e1183]
+        - cell "未麻的部屋" [ref=e1184]
+        - cell "9.1" [ref=e1185]
+        - cell "43万" [ref=e1186]
+        - cell "今敏 Satoshi Kon" [ref=e1187]
+        - cell "1997" [ref=e1188]
+        - cell "剧情 犯罪 动画 悬疑 惊悚" [ref=e1189]
+        - cell "详情" [ref=e1190]:
+          - link "详情" [ref=e1191] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1395091/
+      - row "117 重庆森林 8.8 93万 王家卫 Kar Wai Wong 1994 剧情 爱情 详情" [ref=e1192]:
+        - cell "117" [ref=e1193]
+        - cell "重庆森林" [ref=e1194]
+        - cell "8.8" [ref=e1195]
+        - cell "93万" [ref=e1196]
+        - cell "王家卫 Kar Wai Wong" [ref=e1197]
+        - cell "1994" [ref=e1198]
+        - cell "剧情 爱情" [ref=e1199]
+        - cell "详情" [ref=e1200]:
+          - link "详情" [ref=e1201] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291999/
+      - row "118 借东西的小人阿莉埃蒂 8.9 63万 米林宏昌 Hiromasa Yonebayashi 2010 动画 奇幻 冒险 详情" [ref=e1202]:
+        - cell "118" [ref=e1203]
+        - cell "借东西的小人阿莉埃蒂" [ref=e1204]
+        - cell "8.9" [ref=e1205]
+        - cell "63万" [ref=e1206]
+        - cell "米林宏昌 Hiromasa Yonebayashi" [ref=e1207]
+        - cell "2010" [ref=e1208]
+        - cell "动画 奇幻 冒险" [ref=e1209]
+        - cell "详情" [ref=e1210]:
+          - link "详情" [ref=e1211] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/4202302/
+      - row "119 菊次郎的夏天 8.9 68万 北野武 Takeshi Kitano 1999 剧情 喜剧 详情" [ref=e1212]:
+        - cell "119" [ref=e1213]
+        - cell "菊次郎的夏天" [ref=e1214]
+        - cell "8.9" [ref=e1215]
+        - cell "68万" [ref=e1216]
+        - cell "北野武 Takeshi Kitano" [ref=e1217]
+        - cell "1999" [ref=e1218]
+        - cell "剧情 喜剧" [ref=e1219]
+        - cell "详情" [ref=e1220]:
+          - link "详情" [ref=e1221] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293359/
+      - row "120 入殓师 8.9 75万 泷田洋二郎 Yôjirô Takita 2008 剧情 详情" [ref=e1222]:
+        - cell "120" [ref=e1223]
+        - cell "入殓师" [ref=e1224]
+        - cell "8.9" [ref=e1225]
+        - cell "75万" [ref=e1226]
+        - cell "泷田洋二郎 Yôjirô Takita" [ref=e1227]
+        - cell "2008" [ref=e1228]
+        - cell "剧情" [ref=e1229]
+        - cell "详情" [ref=e1230]:
+          - link "详情" [ref=e1231] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/2149806/
+      - row "121 剪刀手爱德华 8.7 113万 蒂姆·波顿 Tim Burton 1990 剧情 爱情 奇幻 详情" [ref=e1232]:
+        - cell "121" [ref=e1233]
+        - cell "剪刀手爱德华" [ref=e1234]
+        - cell "8.7" [ref=e1235]
+        - cell "113万" [ref=e1236]
+        - cell "蒂姆·波顿 Tim Burton" [ref=e1237]
+        - cell "1990" [ref=e1238]
+        - cell "剧情 爱情 奇幻" [ref=e1239]
+        - cell "详情" [ref=e1240]:
+          - link "详情" [ref=e1241] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292370/
+      - row "122 断背山 8.8 79万 李安 Ang Lee 2005 剧情 爱情 同性 家庭 详情" [ref=e1242]:
+        - cell "122" [ref=e1243]
+        - cell "断背山" [ref=e1244]
+        - cell "8.8" [ref=e1245]
+        - cell "79万" [ref=e1246]
+        - cell "李安 Ang Lee" [ref=e1247]
+        - cell "2005" [ref=e1248]
+        - cell "剧情 爱情 同性 家庭" [ref=e1249]
+        - cell "详情" [ref=e1250]:
+          - link "详情" [ref=e1251] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1418834/
+      - row "123 勇敢的心 8.9 61万 梅尔·吉布森 Mel Gibson 1995 动作 传记 剧情 历史 战争 详情" [ref=e1252]:
+        - cell "123" [ref=e1253]
+        - cell "勇敢的心" [ref=e1254]
+        - cell "8.9" [ref=e1255]
+        - cell "61万" [ref=e1256]
+        - cell "梅尔·吉布森 Mel Gibson" [ref=e1257]
+        - cell "1995" [ref=e1258]
+        - cell "动作 传记 剧情 历史 战争" [ref=e1259]
+        - cell "详情" [ref=e1260]:
+          - link "详情" [ref=e1261] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1294639/
+      - row "124 时空恋旅人 8.8 80万 理查德·柯蒂斯 Richard Curtis 2013 喜剧 爱情 奇幻 详情" [ref=e1262]:
+        - cell "124" [ref=e1263]
+        - cell "时空恋旅人" [ref=e1264]
+        - cell "8.8" [ref=e1265]
+        - cell "80万" [ref=e1266]
+        - cell "理查德·柯蒂斯 Richard Curtis" [ref=e1267]
+        - cell "2013" [ref=e1268]
+        - cell "喜剧 爱情 奇幻" [ref=e1269]
+        - cell "详情" [ref=e1270]:
+          - link "详情" [ref=e1271] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/10577869/
+      - row "125 驯龙高手 8.8 87万 迪恩·德布洛斯 Dean DeBlois / 克里斯·桑德斯 Chris Sanders 2010 动画 奇幻 冒险 详情" [ref=e1272]:
+        - cell "125" [ref=e1273]
+        - cell "驯龙高手" [ref=e1274]
+        - cell "8.8" [ref=e1275]
+        - cell "87万" [ref=e1276]
+        - cell "迪恩·德布洛斯 Dean DeBlois / 克里斯·桑德斯 Chris Sanders" [ref=e1277]
+        - cell "2010" [ref=e1278]
+        - cell "动画 奇幻 冒险" [ref=e1279]
+        - cell "详情" [ref=e1280]:
+          - link "详情" [ref=e1281] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/2353023/
+      - row "126 傲慢与偏见 8.7 95万 乔·怀特 Joe Wright 2005 剧情 爱情 详情" [ref=e1282]:
+        - cell "126" [ref=e1283]
+        - cell "傲慢与偏见" [ref=e1284]
+        - cell "8.7" [ref=e1285]
+        - cell "95万" [ref=e1286]
+        - cell "乔·怀特 Joe Wright" [ref=e1287]
+        - cell "2005" [ref=e1288]
+        - cell "剧情 爱情" [ref=e1289]
+        - cell "详情" [ref=e1290]:
+          - link "详情" [ref=e1291] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1418200/
+      - row "127 无人知晓 9.1 38万 是枝裕和 Hirokazu Koreeda 2004 剧情 详情" [ref=e1292]:
+        - cell "127" [ref=e1293]
+        - cell "无人知晓" [ref=e1294]
+        - cell "9.1" [ref=e1295]
+        - cell "38万" [ref=e1296]
+        - cell "是枝裕和 Hirokazu Koreeda" [ref=e1297]
+        - cell "2004" [ref=e1298]
+        - cell "剧情" [ref=e1299]
+        - cell "详情" [ref=e1300]:
+          - link "详情" [ref=e1301] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292337/
+      - row "128 消失的爱人 8.7 108万 大卫·芬奇 David Fincher 2014 剧情 犯罪 悬疑 惊悚 详情" [ref=e1302]:
+        - cell "128" [ref=e1303]
+        - cell "消失的爱人" [ref=e1304]
+        - cell "8.7" [ref=e1305]
+        - cell "108万" [ref=e1306]
+        - cell "大卫·芬奇 David Fincher" [ref=e1307]
+        - cell "2014" [ref=e1308]
+        - cell "剧情 犯罪 悬疑 惊悚" [ref=e1309]
+        - cell "详情" [ref=e1310]:
+          - link "详情" [ref=e1311] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/21318488/
+      - row "129 倩女幽魂 8.8 84万 程小东 Siu-Tung Ching 1987 爱情 奇幻 武侠 古装 详情" [ref=e1312]:
+        - cell "129" [ref=e1313]
+        - cell "倩女幽魂" [ref=e1314]
+        - cell "8.8" [ref=e1315]
+        - cell "84万" [ref=e1316]
+        - cell "程小东 Siu-Tung Ching" [ref=e1317]
+        - cell "1987" [ref=e1318]
+        - cell "爱情 奇幻 武侠 古装" [ref=e1319]
+        - cell "详情" [ref=e1320]:
+          - link "详情" [ref=e1321] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1297447/
+      - row "130 新世界 8.9 53万 朴勋政 Hoon-jung Park 2013 剧情 犯罪 详情" [ref=e1322]:
+        - cell "130" [ref=e1323]
+        - cell "新世界" [ref=e1324]
+        - cell "8.9" [ref=e1325]
+        - cell "53万" [ref=e1326]
+        - cell "朴勋政 Hoon-jung Park" [ref=e1327]
+        - cell "2013" [ref=e1328]
+        - cell "剧情 犯罪" [ref=e1329]
+        - cell "详情" [ref=e1330]:
+          - link "详情" [ref=e1331] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/10437779/
+      - row "131 花样年华 8.8 81万 王家卫 Kar Wai Wong 2000 剧情 爱情 详情" [ref=e1332]:
+        - cell "131" [ref=e1333]
+        - cell "花样年华" [ref=e1334]
+        - cell "8.8" [ref=e1335]
+        - cell "81万" [ref=e1336]
+        - cell "王家卫 Kar Wai Wong" [ref=e1337]
+        - cell "2000" [ref=e1338]
+        - cell "剧情 爱情" [ref=e1339]
+        - cell "详情" [ref=e1340]:
+          - link "详情" [ref=e1341] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291557/
+      - row "132 玩具总动员3 8.9 60万 李·昂克里奇 Lee Unkrich 2010 喜剧 动画 奇幻 冒险 详情" [ref=e1342]:
+        - cell "132" [ref=e1343]
+        - cell "玩具总动员3" [ref=e1344]
+        - cell "8.9" [ref=e1345]
+        - cell "60万" [ref=e1346]
+        - cell "李·昂克里奇 Lee Unkrich" [ref=e1347]
+        - cell "2010" [ref=e1348]
+        - cell "喜剧 动画 奇幻 冒险" [ref=e1349]
+        - cell "详情" [ref=e1350]:
+          - link "详情" [ref=e1351] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1858711/
+      - row "133 一个叫欧维的男人决定去死 8.9 57万 汉内斯·赫尔姆 Hannes Holm 2015 剧情 详情" [ref=e1352]:
+        - cell "133" [ref=e1353]
+        - cell "一个叫欧维的男人决定去死" [ref=e1354]
+        - cell "8.9" [ref=e1355]
+        - cell "57万" [ref=e1356]
+        - cell "汉内斯·赫尔姆 Hannes Holm" [ref=e1357]
+        - cell "2015" [ref=e1358]
+        - cell "剧情" [ref=e1359]
+        - cell "详情" [ref=e1360]:
+          - link "详情" [ref=e1361] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26628357/
+      - row "134 色，戒 8.7 97万 李安 Ang Lee 2007 剧情 爱情 情色 详情" [ref=e1362]:
+        - cell "134" [ref=e1363]
+        - cell "色，戒" [ref=e1364]
+        - cell "8.7" [ref=e1365]
+        - cell "97万" [ref=e1366]
+        - cell "李安 Ang Lee" [ref=e1367]
+        - cell "2007" [ref=e1368]
+        - cell "剧情 爱情 情色" [ref=e1369]
+        - cell "详情" [ref=e1370]:
+          - link "详情" [ref=e1371] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1828115/
+      - row "135 完美的世界 9.1 36万 克林特·伊斯特伍德 Clint Eastwood 1993 剧情 犯罪 详情" [ref=e1372]:
+        - cell "135" [ref=e1373]
+        - cell "完美的世界" [ref=e1374]
+        - cell "9.1" [ref=e1375]
+        - cell "36万" [ref=e1376]
+        - cell "克林特·伊斯特伍德 Clint Eastwood" [ref=e1377]
+        - cell "1993" [ref=e1378]
+        - cell "剧情 犯罪" [ref=e1379]
+        - cell "详情" [ref=e1380]:
+          - link "详情" [ref=e1381] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1300992/
+      - row "136 怪兽电力公司 8.8 78万 彼特·道格特 Pete Docter / 大卫·斯沃曼 David Silverman 2001 儿童 喜剧 动画 奇幻 冒险 详情" [ref=e1382]:
+        - cell "136" [ref=e1383]
+        - cell "怪兽电力公司" [ref=e1384]
+        - cell "8.8" [ref=e1385]
+        - cell "78万" [ref=e1386]
+        - cell "彼特·道格特 Pete Docter / 大卫·斯沃曼 David Silverman" [ref=e1387]
+        - cell "2001" [ref=e1388]
+        - cell "儿童 喜剧 动画 奇幻 冒险" [ref=e1389]
+        - cell "详情" [ref=e1390]:
+          - link "详情" [ref=e1391] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291579/
+      - row "137 教父3 9 44万 弗朗西斯·福特·科波拉 Francis Ford Coppola 1990 剧情 犯罪 详情" [ref=e1392]:
+        - cell "137" [ref=e1393]
+        - cell "教父3" [ref=e1394]
+        - cell "9" [ref=e1395]
+        - cell "44万" [ref=e1396]
+        - cell "弗朗西斯·福特·科波拉 Francis Ford Coppola" [ref=e1397]
+        - cell "1990" [ref=e1398]
+        - cell "剧情 犯罪" [ref=e1399]
+        - cell "详情" [ref=e1400]:
+          - link "详情" [ref=e1401] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1294240/
+      - row "138 阳光灿烂的日子 8.8 70万 姜文 Wen Jiang 1994 剧情 爱情 详情" [ref=e1402]:
+        - cell "138" [ref=e1403]
+        - cell "阳光灿烂的日子" [ref=e1404]
+        - cell "8.8" [ref=e1405]
+        - cell "70万" [ref=e1406]
+        - cell "姜文 Wen Jiang" [ref=e1407]
+        - cell "1994" [ref=e1408]
+        - cell "剧情 爱情" [ref=e1409]
+        - cell "详情" [ref=e1410]:
+          - link "详情" [ref=e1411] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291875/
+      - row "139 小森林 夏秋篇 9 48万 森淳一 Junichi Mori 2014 剧情 详情" [ref=e1412]:
+        - cell "139" [ref=e1413]
+        - cell "小森林 夏秋篇" [ref=e1414]
+        - cell "9" [ref=e1415]
+        - cell "48万" [ref=e1416]
+        - cell "森淳一 Junichi Mori" [ref=e1417]
+        - cell "2014" [ref=e1418]
+        - cell "剧情" [ref=e1419]
+        - cell "详情" [ref=e1420]:
+          - link "详情" [ref=e1421] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25814705/
+      - row "140 天使爱美丽 8.7 103万 让-皮埃尔·热内 Jean-Pierre Jeunet 2001 剧情 喜剧 爱情 详情" [ref=e1422]:
+        - cell "140" [ref=e1423]
+        - cell "天使爱美丽" [ref=e1424]
+        - cell "8.7" [ref=e1425]
+        - cell "103万" [ref=e1426]
+        - cell "让-皮埃尔·热内 Jean-Pierre Jeunet" [ref=e1427]
+        - cell "2001" [ref=e1428]
+        - cell "剧情 喜剧 爱情" [ref=e1429]
+        - cell "详情" [ref=e1430]:
+          - link "详情" [ref=e1431] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292215/
+      - row "141 侧耳倾听 8.9 52万 近藤喜文 Yoshifumi Kondo 1995 剧情 爱情 动画 详情" [ref=e1432]:
+        - cell "141" [ref=e1433]
+        - cell "侧耳倾听" [ref=e1434]
+        - cell "8.9" [ref=e1435]
+        - cell "52万" [ref=e1436]
+        - cell "近藤喜文 Yoshifumi Kondo" [ref=e1437]
+        - cell "1995" [ref=e1438]
+        - cell "剧情 爱情 动画" [ref=e1439]
+        - cell "详情" [ref=e1440]:
+          - link "详情" [ref=e1441] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1297052/
+      - row "142 哪吒闹海 9.2 31万 王树忱 Shuchen Wang / 严定宪 Dingxian Yan 1979 冒险 动画 奇幻 详情" [ref=e1442]:
+        - cell "142" [ref=e1443]
+        - cell "哪吒闹海" [ref=e1444]
+        - cell "9.2" [ref=e1445]
+        - cell "31万" [ref=e1446]
+        - cell "王树忱 Shuchen Wang / 严定宪 Dingxian Yan" [ref=e1447]
+        - cell "1979" [ref=e1448]
+        - cell "冒险 动画 奇幻" [ref=e1449]
+        - cell "详情" [ref=e1450]:
+          - link "详情" [ref=e1451] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1307315/
+      - row "143 九品芝麻官 8.8 80万 王晶 Jing Wong 1994 剧情 喜剧 古装 详情" [ref=e1452]:
+        - cell "143" [ref=e1453]
+        - cell "九品芝麻官" [ref=e1454]
+        - cell "8.8" [ref=e1455]
+        - cell "80万" [ref=e1456]
+        - cell "王晶 Jing Wong" [ref=e1457]
+        - cell "1994" [ref=e1458]
+        - cell "剧情 喜剧 古装" [ref=e1459]
+        - cell "详情" [ref=e1460]:
+          - link "详情" [ref=e1461] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1297518/
+      - row "144 被解救的姜戈 8.8 70万 昆汀·塔伦蒂诺 Quentin Tarantino 2012 剧情 动作 西部 冒险 详情" [ref=e1462]:
+        - cell "144" [ref=e1463]
+        - cell "被解救的姜戈" [ref=e1464]
+        - cell "8.8" [ref=e1465]
+        - cell "70万" [ref=e1466]
+        - cell "昆汀·塔伦蒂诺 Quentin Tarantino" [ref=e1467]
+        - cell "2012" [ref=e1468]
+        - cell "剧情 动作 西部 冒险" [ref=e1469]
+        - cell "详情" [ref=e1470]:
+          - link "详情" [ref=e1471] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/6307447/
+      - row "145 请以你的名字呼唤我 8.8 83万 卢卡·瓜达尼诺 Luca Guadagnino 2017 剧情 爱情 同性 详情" [ref=e1472]:
+        - cell "145" [ref=e1473]
+        - cell "请以你的名字呼唤我" [ref=e1474]
+        - cell "8.8" [ref=e1475]
+        - cell "83万" [ref=e1476]
+        - cell "卢卡·瓜达尼诺 Luca Guadagnino" [ref=e1477]
+        - cell "2017" [ref=e1478]
+        - cell "剧情 爱情 同性" [ref=e1479]
+        - cell "详情" [ref=e1480]:
+          - link "详情" [ref=e1481] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26799731/
+      - row "146 幸福终点站 8.8 65万 史蒂文·斯皮尔伯格 Steven Spielberg 2004 喜剧 剧情 爱情 详情" [ref=e1482]:
+        - cell "146" [ref=e1483]
+        - cell "幸福终点站" [ref=e1484]
+        - cell "8.8" [ref=e1485]
+        - cell "65万" [ref=e1486]
+        - cell "史蒂文·斯皮尔伯格 Steven Spielberg" [ref=e1487]
+        - cell "2004" [ref=e1488]
+        - cell "喜剧 剧情 爱情" [ref=e1489]
+        - cell "详情" [ref=e1490]:
+          - link "详情" [ref=e1491] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292274/
+      - row "147 釜山行 8.6 136万 延尚昊 Sang-ho Yeon 2016 动作 惊悚 灾难 详情" [ref=e1492]:
+        - cell "147" [ref=e1493]
+        - cell "釜山行" [ref=e1494]
+        - cell "8.6" [ref=e1495]
+        - cell "136万" [ref=e1496]
+        - cell "延尚昊 Sang-ho Yeon" [ref=e1497]
+        - cell "2016" [ref=e1498]
+        - cell "动作 惊悚 灾难" [ref=e1499]
+        - cell "详情" [ref=e1500]:
+          - link "详情" [ref=e1501] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25986180/
+      - row "148 神偷奶爸 8.7 105万 皮艾尔·柯芬 Pierre Coffin / 克里斯·雷纳德 Chris Renaud 2010 喜剧 动画 冒险 详情" [ref=e1502]:
+        - cell "148" [ref=e1503]
+        - cell "神偷奶爸" [ref=e1504]
+        - cell "8.7" [ref=e1505]
+        - cell "105万" [ref=e1506]
+        - cell "皮艾尔·柯芬 Pierre Coffin / 克里斯·雷纳德 Chris Renaud" [ref=e1507]
+        - cell "2010" [ref=e1508]
+        - cell "喜剧 动画 冒险" [ref=e1509]
+        - cell "详情" [ref=e1510]:
+          - link "详情" [ref=e1511] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3287562/
+      - row "149 小森林 冬春篇 9 42万 森淳一 Junichi Mori 2015 剧情 详情" [ref=e1512]:
+        - cell "149" [ref=e1513]
+        - cell "小森林 冬春篇" [ref=e1514]
+        - cell "9" [ref=e1515]
+        - cell "42万" [ref=e1516]
+        - cell "森淳一 Junichi Mori" [ref=e1517]
+        - cell "2015" [ref=e1518]
+        - cell "剧情" [ref=e1519]
+        - cell "详情" [ref=e1520]:
+          - link "详情" [ref=e1521] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25814707/
+      - row "150 喜宴 9 44万 李安 Ang Lee 1993 剧情 喜剧 爱情 同性 家庭 详情" [ref=e1522]:
+        - cell "150" [ref=e1523]
+        - cell "喜宴" [ref=e1524]
+        - cell "9" [ref=e1525]
+        - cell "44万" [ref=e1526]
+        - cell "李安 Ang Lee" [ref=e1527]
+        - cell "1993" [ref=e1528]
+        - cell "剧情 喜剧 爱情 同性 家庭" [ref=e1529]
+        - cell "详情" [ref=e1530]:
+          - link "详情" [ref=e1531] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1303037/
+      - row "151 萤火之森 8.8 62万 大森贵弘 Takahiro Omori 2011 剧情 爱情 动画 奇幻 详情" [ref=e1532]:
+        - cell "151" [ref=e1533]
+        - cell "萤火之森" [ref=e1534]
+        - cell "8.8" [ref=e1535]
+        - cell "62万" [ref=e1536]
+        - cell "大森贵弘 Takahiro Omori" [ref=e1537]
+        - cell "2011" [ref=e1538]
+        - cell "剧情 爱情 动画 奇幻" [ref=e1539]
+        - cell "详情" [ref=e1540]:
+          - link "详情" [ref=e1541] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/5989818/
+      - row "152 告白 8.8 75万 中岛哲也 Tetsuya Nakashima 2010 剧情 悬疑 详情" [ref=e1542]:
+        - cell "152" [ref=e1543]
+        - cell "告白" [ref=e1544]
+        - cell "8.8" [ref=e1545]
+        - cell "75万" [ref=e1546]
+        - cell "中岛哲也 Tetsuya Nakashima" [ref=e1547]
+        - cell "2010" [ref=e1548]
+        - cell "剧情 悬疑" [ref=e1549]
+        - cell "详情" [ref=e1550]:
+          - link "详情" [ref=e1551] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/4268598/
+      - row "153 七武士 9.3 24万 黑泽明 Akira Kurosawa 1954 动作 冒险 剧情 详情" [ref=e1552]:
+        - cell "153" [ref=e1553]
+        - cell "七武士" [ref=e1554]
+        - cell "9.3" [ref=e1555]
+        - cell "24万" [ref=e1556]
+        - cell "黑泽明 Akira Kurosawa" [ref=e1557]
+        - cell "1954" [ref=e1558]
+        - cell "动作 冒险 剧情" [ref=e1559]
+        - cell "详情" [ref=e1560]:
+          - link "详情" [ref=e1561] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1295399/
+      - row "154 玛丽和麦克斯 9 47万 亚当·艾略特 Adam Elliot 2009 剧情 喜剧 动画 详情" [ref=e1562]:
+        - cell "154" [ref=e1563]
+        - cell "玛丽和麦克斯" [ref=e1564]
+        - cell "9" [ref=e1565]
+        - cell "47万" [ref=e1566]
+        - cell "亚当·艾略特 Adam Elliot" [ref=e1567]
+        - cell "2009" [ref=e1568]
+        - cell "剧情 喜剧 动画" [ref=e1569]
+        - cell "详情" [ref=e1570]:
+          - link "详情" [ref=e1571] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3072124/
+      - row "155 头号玩家 8.6 153万 史蒂文·斯皮尔伯格 Steven Spielberg 2018 动作 科幻 冒险 详情" [ref=e1572]:
+        - cell "155" [ref=e1573]
+        - cell "头号玩家" [ref=e1574]
+        - cell "8.6" [ref=e1575]
+        - cell "153万" [ref=e1576]
+        - cell "史蒂文·斯皮尔伯格 Steven Spielberg" [ref=e1577]
+        - cell "2018" [ref=e1578]
+        - cell "动作 科幻 冒险" [ref=e1579]
+        - cell "详情" [ref=e1580]:
+          - link "详情" [ref=e1581] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/4920389/
+      - row "156 模仿游戏 8.8 72万 莫滕·泰杜姆 Morten Tyldum 2014 剧情 传记 战争 同性 详情" [ref=e1582]:
+        - cell "156" [ref=e1583]
+        - cell "模仿游戏" [ref=e1584]
+        - cell "8.8" [ref=e1585]
+        - cell "72万" [ref=e1586]
+        - cell "莫滕·泰杜姆 Morten Tyldum" [ref=e1587]
+        - cell "2014" [ref=e1588]
+        - cell "剧情 传记 战争 同性" [ref=e1589]
+        - cell "详情" [ref=e1590]:
+          - link "详情" [ref=e1591] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/10463953/
+      - row "157 机器人之梦 9.1 45万 巴勃罗·贝格尔 Pablo Berger 2023 剧情 动画 音乐 详情" [ref=e1592]:
+        - cell "157" [ref=e1593]
+        - cell "机器人之梦" [ref=e1594]
+        - cell "9.1" [ref=e1595]
+        - cell "45万" [ref=e1596]
+        - cell "巴勃罗·贝格尔 Pablo Berger" [ref=e1597]
+        - cell "2023" [ref=e1598]
+        - cell "剧情 动画 音乐" [ref=e1599]
+        - cell "详情" [ref=e1600]:
+          - link "详情" [ref=e1601] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/35426925/
+      - row "158 惊魂记 9 36万 阿尔弗雷德·希区柯克 Alfred Hitchcock 1960 悬疑 惊悚 恐怖 详情" [ref=e1602]:
+        - cell "158" [ref=e1603]
+        - cell "惊魂记" [ref=e1604]
+        - cell "9" [ref=e1605]
+        - cell "36万" [ref=e1606]
+        - cell "阿尔弗雷德·希区柯克 Alfred Hitchcock" [ref=e1607]
+        - cell "1960" [ref=e1608]
+        - cell "悬疑 惊悚 恐怖" [ref=e1609]
+        - cell "详情" [ref=e1610]:
+          - link "详情" [ref=e1611] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293181/
+      - row "159 大鱼 8.8 63万 蒂姆·波顿 Tim Burton 2003 剧情 爱情 奇幻 冒险 详情" [ref=e1612]:
+        - cell "159" [ref=e1613]
+        - cell "大鱼" [ref=e1614]
+        - cell "8.8" [ref=e1615]
+        - cell "63万" [ref=e1616]
+        - cell "蒂姆·波顿 Tim Burton" [ref=e1617]
+        - cell "2003" [ref=e1618]
+        - cell "剧情 爱情 奇幻 冒险" [ref=e1619]
+        - cell "详情" [ref=e1620]:
+          - link "详情" [ref=e1621] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291545/
+      - row "160 心灵奇旅 8.7 115万 彼特·道格特 Pete Docter / 凯普·鲍尔斯 Kemp Powers 2020 动画 奇幻 音乐 详情" [ref=e1622]:
+        - cell "160" [ref=e1623]
+        - cell "心灵奇旅" [ref=e1624]
+        - cell "8.7" [ref=e1625]
+        - cell "115万" [ref=e1626]
+        - cell "彼特·道格特 Pete Docter / 凯普·鲍尔斯 Kemp Powers" [ref=e1627]
+        - cell "2020" [ref=e1628]
+        - cell "动画 奇幻 音乐" [ref=e1629]
+        - cell "详情" [ref=e1630]:
+          - link "详情" [ref=e1631] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/24733428/
+      - row "161 背靠背，脸对脸 9.5 18万 黄建新 Jianxin Huang / 杨亚洲 Yazhou Yang 1994 剧情 详情" [ref=e1632]:
+        - cell "161" [ref=e1633]
+        - cell "背靠背，脸对脸" [ref=e1634]
+        - cell "9.5" [ref=e1635]
+        - cell "18万" [ref=e1636]
+        - cell "黄建新 Jianxin Huang / 杨亚洲 Yazhou Yang" [ref=e1637]
+        - cell "1994" [ref=e1638]
+        - cell "剧情" [ref=e1639]
+        - cell "详情" [ref=e1640]:
+          - link "详情" [ref=e1641] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1307856/
+      - row "162 你的名字。 8.5 160万 新海诚 Makoto Shinkai 2016 剧情 爱情 动画 详情" [ref=e1642]:
+        - cell "162" [ref=e1643]
+        - cell "你的名字。" [ref=e1644]
+        - cell "8.5" [ref=e1645]
+        - cell "160万" [ref=e1646]
+        - cell "新海诚 Makoto Shinkai" [ref=e1647]
+        - cell "2016" [ref=e1648]
+        - cell "剧情 爱情 动画" [ref=e1649]
+        - cell "详情" [ref=e1650]:
+          - link "详情" [ref=e1651] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26683290/
+      - row "163 血战钢锯岭 8.7 86万 梅尔·吉布森 Mel Gibson 2016 剧情 传记 历史 战争 详情" [ref=e1652]:
+        - cell "163" [ref=e1653]
+        - cell "血战钢锯岭" [ref=e1654]
+        - cell "8.7" [ref=e1655]
+        - cell "86万" [ref=e1656]
+        - cell "梅尔·吉布森 Mel Gibson" [ref=e1657]
+        - cell "2016" [ref=e1658]
+        - cell "剧情 传记 历史 战争" [ref=e1659]
+        - cell "详情" [ref=e1660]:
+          - link "详情" [ref=e1661] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26325320/
+      - row "164 射雕英雄传之东成西就 8.7 72万 刘镇伟 Jeffrey Lau 1993 喜剧 奇幻 武侠 古装 详情" [ref=e1662]:
+        - cell "164" [ref=e1663]
+        - cell "射雕英雄传之东成西就" [ref=e1664]
+        - cell "8.7" [ref=e1665]
+        - cell "72万" [ref=e1666]
+        - cell "刘镇伟 Jeffrey Lau" [ref=e1667]
+        - cell "1993" [ref=e1668]
+        - cell "喜剧 奇幻 武侠 古装" [ref=e1669]
+        - cell "详情" [ref=e1670]:
+          - link "详情" [ref=e1671] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1316510/
+      - row "165 我是山姆 9 38万 杰茜·尼尔森 Jessie Nelson 2001 剧情 家庭 详情" [ref=e1672]:
+        - cell "165" [ref=e1673]
+        - cell "我是山姆" [ref=e1674]
+        - cell "9" [ref=e1675]
+        - cell "38万" [ref=e1676]
+        - cell "杰茜·尼尔森 Jessie Nelson" [ref=e1677]
+        - cell "2001" [ref=e1678]
+        - cell "剧情 家庭" [ref=e1679]
+        - cell "详情" [ref=e1680]:
+          - link "详情" [ref=e1681] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1306861/
+      - row "166 阳光姐妹淘 8.8 64万 姜炯哲 Hyeong-Cheol Kang 2011 剧情 喜剧 详情" [ref=e1682]:
+        - cell "166" [ref=e1683]
+        - cell "阳光姐妹淘" [ref=e1684]
+        - cell "8.8" [ref=e1685]
+        - cell "64万" [ref=e1686]
+        - cell "姜炯哲 Hyeong-Cheol Kang" [ref=e1687]
+        - cell "2011" [ref=e1688]
+        - cell "剧情 喜剧" [ref=e1689]
+        - cell "详情" [ref=e1690]:
+          - link "详情" [ref=e1691] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/4917726/
+      - row "167 末路狂花 9 36万 雷德利·斯科特 Ridley Scott 1991 犯罪 剧情 惊悚 详情" [ref=e1692]:
+        - cell "167" [ref=e1693]
+        - cell "末路狂花" [ref=e1694]
+        - cell "9" [ref=e1695]
+        - cell "36万" [ref=e1696]
+        - cell "雷德利·斯科特 Ridley Scott" [ref=e1697]
+        - cell "1991" [ref=e1698]
+        - cell "犯罪 剧情 惊悚" [ref=e1699]
+        - cell "详情" [ref=e1700]:
+          - link "详情" [ref=e1701] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291992/
+      - row "168 恐怖直播 8.7 73万 金秉祐 Byeong-woo Kim 2013 剧情 犯罪 悬疑 详情" [ref=e1702]:
+        - cell "168" [ref=e1703]
+        - cell "恐怖直播" [ref=e1704]
+        - cell "8.7" [ref=e1705]
+        - cell "73万" [ref=e1706]
+        - cell "金秉祐 Byeong-woo Kim" [ref=e1707]
+        - cell "2013" [ref=e1708]
+        - cell "剧情 犯罪 悬疑" [ref=e1709]
+        - cell "详情" [ref=e1710]:
+          - link "详情" [ref=e1711] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/21360417/
+      - row "169 黑客帝国3：矩阵革命 8.8 50万 拉娜·沃卓斯基 Lana Wachowski / 莉莉·沃卓斯基 Lilly Wachowski 2003 动作 科幻 详情" [ref=e1712]:
+        - cell "169" [ref=e1713]
+        - cell "黑客帝国3：矩阵革命" [ref=e1714]
+        - cell "8.8" [ref=e1715]
+        - cell "50万" [ref=e1716]
+        - cell "拉娜·沃卓斯基 Lana Wachowski / 莉莉·沃卓斯基 Lilly Wachowski" [ref=e1717]
+        - cell "2003" [ref=e1718]
+        - cell "动作 科幻" [ref=e1719]
+        - cell "详情" [ref=e1720]:
+          - link "详情" [ref=e1721] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1302467/
+      - row "170 高山下的花环 9.5 16万 谢晋 Jin Xie 1984 剧情 战争 详情" [ref=e1722]:
+        - cell "170" [ref=e1723]
+        - cell "高山下的花环" [ref=e1724]
+        - cell "9.5" [ref=e1725]
+        - cell "16万" [ref=e1726]
+        - cell "谢晋 Jin Xie" [ref=e1727]
+        - cell "1984" [ref=e1728]
+        - cell "剧情 战争" [ref=e1729]
+        - cell "详情" [ref=e1730]:
+          - link "详情" [ref=e1731] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1422283/
+      - row "171 小丑 8.7 113万 托德·菲利普斯 Todd Phillips 2019 剧情 犯罪 惊悚 详情" [ref=e1732]:
+        - cell "171" [ref=e1733]
+        - cell "小丑" [ref=e1734]
+        - cell "8.7" [ref=e1735]
+        - cell "113万" [ref=e1736]
+        - cell "托德·菲利普斯 Todd Phillips" [ref=e1737]
+        - cell "2019" [ref=e1738]
+        - cell "剧情 犯罪 惊悚" [ref=e1739]
+        - cell "详情" [ref=e1740]:
+          - link "详情" [ref=e1741] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/27119724/
+      - row "172 谍影重重3 8.9 47万 保罗·格林格拉斯 Paul Greengrass 2007 动作 悬疑 惊悚 详情" [ref=e1742]:
+        - cell "172" [ref=e1743]
+        - cell "谍影重重3" [ref=e1744]
+        - cell "8.9" [ref=e1745]
+        - cell "47万" [ref=e1746]
+        - cell "保罗·格林格拉斯 Paul Greengrass" [ref=e1747]
+        - cell "2007" [ref=e1748]
+        - cell "动作 悬疑 惊悚" [ref=e1749]
+        - cell "详情" [ref=e1750]:
+          - link "详情" [ref=e1751] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1578507/
+      - row "173 三块广告牌 8.7 93万 马丁·麦克唐纳 Martin McDonagh 2017 剧情 犯罪 详情" [ref=e1752]:
+        - cell "173" [ref=e1753]
+        - cell "三块广告牌" [ref=e1754]
+        - cell "8.7" [ref=e1755]
+        - cell "93万" [ref=e1756]
+        - cell "马丁·麦克唐纳 Martin McDonagh" [ref=e1757]
+        - cell "2017" [ref=e1758]
+        - cell "剧情 犯罪" [ref=e1759]
+        - cell "详情" [ref=e1760]:
+          - link "详情" [ref=e1761] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26611804/
+      - row "174 电锯惊魂 8.7 62万 詹姆斯·温 James Wan 2004 悬疑 惊悚 恐怖 详情" [ref=e1762]:
+        - cell "174" [ref=e1763]
+        - cell "电锯惊魂" [ref=e1764]
+        - cell "8.7" [ref=e1765]
+        - cell "62万" [ref=e1766]
+        - cell "詹姆斯·温 James Wan" [ref=e1767]
+        - cell "2004" [ref=e1768]
+        - cell "悬疑 惊悚 恐怖" [ref=e1769]
+        - cell "详情" [ref=e1770]:
+          - link "详情" [ref=e1771] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1417598/
+      - row "175 无间道2 8.8 57万 刘伟强 Andrew Lau / 麦兆辉 Alan Mak 2003 剧情 犯罪 惊悚 详情" [ref=e1772]:
+        - cell "175" [ref=e1773]
+        - cell "无间道2" [ref=e1774]
+        - cell "8.8" [ref=e1775]
+        - cell "57万" [ref=e1776]
+        - cell "刘伟强 Andrew Lau / 麦兆辉 Alan Mak" [ref=e1777]
+        - cell "2003" [ref=e1778]
+        - cell "剧情 犯罪 惊悚" [ref=e1779]
+        - cell "详情" [ref=e1780]:
+          - link "详情" [ref=e1781] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1307106/
+      - row "176 达拉斯买家俱乐部 8.8 51万 让-马克·瓦雷 Jean-Marc Vallée 2013 剧情 传记 同性 详情" [ref=e1782]:
+        - cell "176" [ref=e1783]
+        - cell "达拉斯买家俱乐部" [ref=e1784]
+        - cell "8.8" [ref=e1785]
+        - cell "51万" [ref=e1786]
+        - cell "让-马克·瓦雷 Jean-Marc Vallée" [ref=e1787]
+        - cell "2013" [ref=e1788]
+        - cell "剧情 传记 同性" [ref=e1789]
+        - cell "详情" [ref=e1790]:
+          - link "详情" [ref=e1791] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1793929/
+      - row "177 疯狂原始人 8.7 93万 科克·德·米科 Kirk De Micco / 克里斯·桑德斯 Chris Sanders 2013 喜剧 动画 冒险 详情" [ref=e1792]:
+        - cell "177" [ref=e1793]
+        - cell "疯狂原始人" [ref=e1794]
+        - cell "8.7" [ref=e1795]
+        - cell "93万" [ref=e1796]
+        - cell "科克·德·米科 Kirk De Micco / 克里斯·桑德斯 Chris Sanders" [ref=e1797]
+        - cell "2013" [ref=e1798]
+        - cell "喜剧 动画 冒险" [ref=e1799]
+        - cell "详情" [ref=e1800]:
+          - link "详情" [ref=e1801] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1907966/
+      - row "178 绿里奇迹 8.9 39万 弗兰克·德拉邦特 Frank Darabont 1999 犯罪 剧情 奇幻 悬疑 详情" [ref=e1802]:
+        - cell "178" [ref=e1803]
+        - cell "绿里奇迹" [ref=e1804]
+        - cell "8.9" [ref=e1805]
+        - cell "39万" [ref=e1806]
+        - cell "弗兰克·德拉邦特 Frank Darabont" [ref=e1807]
+        - cell "1999" [ref=e1808]
+        - cell "犯罪 剧情 奇幻 悬疑" [ref=e1809]
+        - cell "详情" [ref=e1810]:
+          - link "详情" [ref=e1811] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1300374/
+      - row "179 爱在午夜降临前 8.9 48万 理查德·林克莱特 Richard Linklater 2013 剧情 爱情 详情" [ref=e1812]:
+        - cell "179" [ref=e1813]
+        - cell "爱在午夜降临前" [ref=e1814]
+        - cell "8.9" [ref=e1815]
+        - cell "48万" [ref=e1816]
+        - cell "理查德·林克莱特 Richard Linklater" [ref=e1817]
+        - cell "2013" [ref=e1818]
+        - cell "剧情 爱情" [ref=e1819]
+        - cell "详情" [ref=e1820]:
+          - link "详情" [ref=e1821] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/10808442/
+      - row "180 疯狂的石头 8.6 93万 宁浩 Hao Ning 2006 喜剧 犯罪 详情" [ref=e1822]:
+        - cell "180" [ref=e1823]
+        - cell "疯狂的石头" [ref=e1824]
+        - cell "8.6" [ref=e1825]
+        - cell "93万" [ref=e1826]
+        - cell "宁浩 Hao Ning" [ref=e1827]
+        - cell "2006" [ref=e1828]
+        - cell "喜剧 犯罪" [ref=e1829]
+        - cell "详情" [ref=e1830]:
+          - link "详情" [ref=e1831] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1862151/
+      - row "181 雨中曲 9.1 27万 斯坦利·多南 Stanley Donen / 吉恩·凯利 Gene Kelly 1952 喜剧 歌舞 爱情 详情" [ref=e1832]:
+        - cell "181" [ref=e1833]
+        - cell "雨中曲" [ref=e1834]
+        - cell "9.1" [ref=e1835]
+        - cell "27万" [ref=e1836]
+        - cell "斯坦利·多南 Stanley Donen / 吉恩·凯利 Gene Kelly" [ref=e1837]
+        - cell "1952" [ref=e1838]
+        - cell "喜剧 歌舞 爱情" [ref=e1839]
+        - cell "详情" [ref=e1840]:
+          - link "详情" [ref=e1841] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293460/
+      - row "182 2001太空漫游 8.9 40万 斯坦利·库布里克 Stanley Kubrick 1968 科幻 惊悚 冒险 详情" [ref=e1842]:
+        - cell "182" [ref=e1843]
+        - cell "2001太空漫游" [ref=e1844]
+        - cell "8.9" [ref=e1845]
+        - cell "40万" [ref=e1846]
+        - cell "斯坦利·库布里克 Stanley Kubrick" [ref=e1847]
+        - cell "1968" [ref=e1848]
+        - cell "科幻 惊悚 冒险" [ref=e1849]
+        - cell "详情" [ref=e1850]:
+          - link "详情" [ref=e1851] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292226/
+      - row "183 海街日记 8.8 53万 是枝裕和 Hirokazu Koreeda 2015 剧情 家庭 详情" [ref=e1852]:
+        - cell "183" [ref=e1853]
+        - cell "海街日记" [ref=e1854]
+        - cell "8.8" [ref=e1855]
+        - cell "53万" [ref=e1856]
+        - cell "是枝裕和 Hirokazu Koreeda" [ref=e1857]
+        - cell "2015" [ref=e1858]
+        - cell "剧情 家庭" [ref=e1859]
+        - cell "详情" [ref=e1860]:
+          - link "详情" [ref=e1861] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25895901/
+      - row "184 上帝之城 9 34万 费尔南多·梅里尔斯 Fernando Meirelles / 卡迪亚·兰德 Kátia Lund 2002 犯罪 剧情 详情" [ref=e1862]:
+        - cell "184" [ref=e1863]
+        - cell "上帝之城" [ref=e1864]
+        - cell "9" [ref=e1865]
+        - cell "34万" [ref=e1866]
+        - cell "费尔南多·梅里尔斯 Fernando Meirelles / 卡迪亚·兰德 Kátia Lund" [ref=e1867]
+        - cell "2002" [ref=e1868]
+        - cell "犯罪 剧情" [ref=e1869]
+        - cell "详情" [ref=e1870]:
+          - link "详情" [ref=e1871] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292208/
+      - row "185 心迷宫 8.7 62万 忻钰坤 Yukun Xin 2014 剧情 犯罪 悬疑 详情" [ref=e1872]:
+        - cell "185" [ref=e1873]
+        - cell "心迷宫" [ref=e1874]
+        - cell "8.7" [ref=e1875]
+        - cell "62万" [ref=e1876]
+        - cell "忻钰坤 Yukun Xin" [ref=e1877]
+        - cell "2014" [ref=e1878]
+        - cell "剧情 犯罪 悬疑" [ref=e1879]
+        - cell "详情" [ref=e1880]:
+          - link "详情" [ref=e1881] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25917973/
+      - row "186 风之谷 8.9 40万 宫崎骏 Hayao Miyazaki 1984 动画 奇幻 冒险 详情" [ref=e1882]:
+        - cell "186" [ref=e1883]
+        - cell "风之谷" [ref=e1884]
+        - cell "8.9" [ref=e1885]
+        - cell "40万" [ref=e1886]
+        - cell "宫崎骏 Hayao Miyazaki" [ref=e1887]
+        - cell "1984" [ref=e1888]
+        - cell "动画 奇幻 冒险" [ref=e1889]
+        - cell "详情" [ref=e1890]:
+          - link "详情" [ref=e1891] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291585/
+      - row "187 英雄本色 8.6 61万 吴宇森 John Woo 1986 剧情 动作 犯罪 详情" [ref=e1892]:
+        - cell "187" [ref=e1893]
+        - cell "英雄本色" [ref=e1894]
+        - cell "8.6" [ref=e1895]
+        - cell "61万" [ref=e1896]
+        - cell "吴宇森 John Woo" [ref=e1897]
+        - cell "1986" [ref=e1898]
+        - cell "剧情 动作 犯罪" [ref=e1899]
+        - cell "详情" [ref=e1900]:
+          - link "详情" [ref=e1901] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1297574/
+      - row "188 记忆碎片 8.7 71万 克里斯托弗·诺兰 Christopher Nolan 2000 犯罪 剧情 悬疑 惊悚 详情" [ref=e1902]:
+        - cell "188" [ref=e1903]
+        - cell "记忆碎片" [ref=e1904]
+        - cell "8.7" [ref=e1905]
+        - cell "71万" [ref=e1906]
+        - cell "克里斯托弗·诺兰 Christopher Nolan" [ref=e1907]
+        - cell "2000" [ref=e1908]
+        - cell "犯罪 剧情 悬疑 惊悚" [ref=e1909]
+        - cell "详情" [ref=e1910]:
+          - link "详情" [ref=e1911] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1304447/
+      - row "189 纵横四海 8.8 49万 吴宇森 John Woo 1991 剧情 喜剧 动作 犯罪 详情" [ref=e1912]:
+        - cell "189" [ref=e1913]
+        - cell "纵横四海" [ref=e1914]
+        - cell "8.8" [ref=e1915]
+        - cell "49万" [ref=e1916]
+        - cell "吴宇森 John Woo" [ref=e1917]
+        - cell "1991" [ref=e1918]
+        - cell "剧情 喜剧 动作 犯罪" [ref=e1919]
+        - cell "详情" [ref=e1920]:
+          - link "详情" [ref=e1921] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1295409/
+      - row "190 无敌破坏王 8.7 62万 瑞奇·莫尔 Rich Moore 2012 喜剧 动画 奇幻 冒险 详情" [ref=e1922]:
+        - cell "190" [ref=e1923]
+        - cell "无敌破坏王" [ref=e1924]
+        - cell "8.7" [ref=e1925]
+        - cell "62万" [ref=e1926]
+        - cell "瑞奇·莫尔 Rich Moore" [ref=e1927]
+        - cell "2012" [ref=e1928]
+        - cell "喜剧 动画 奇幻 冒险" [ref=e1929]
+        - cell "详情" [ref=e1930]:
+          - link "详情" [ref=e1931] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/6534248/
+      - row "191 卢旺达饭店 8.9 37万 特瑞·乔治 Terry George 2004 剧情 传记 历史 战争 详情" [ref=e1932]:
+        - cell "191" [ref=e1933]
+        - cell "卢旺达饭店" [ref=e1934]
+        - cell "8.9" [ref=e1935]
+        - cell "37万" [ref=e1936]
+        - cell "特瑞·乔治 Terry George" [ref=e1937]
+        - cell "2004" [ref=e1938]
+        - cell "剧情 传记 历史 战争" [ref=e1939]
+        - cell "详情" [ref=e1940]:
+          - link "详情" [ref=e1941] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291822/
+      - row "192 恐怖游轮 8.5 100万 克里斯托弗·史密斯 Christopher Smith 2009 科幻 悬疑 奇幻 惊悚 详情" [ref=e1942]:
+        - cell "192" [ref=e1943]
+        - cell "恐怖游轮" [ref=e1944]
+        - cell "8.5" [ref=e1945]
+        - cell "100万" [ref=e1946]
+        - cell "克里斯托弗·史密斯 Christopher Smith" [ref=e1947]
+        - cell "2009" [ref=e1948]
+        - cell "科幻 悬疑 奇幻 惊悚" [ref=e1949]
+        - cell "详情" [ref=e1950]:
+          - link "详情" [ref=e1951] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3011051/
+      - row "193 牯岭街少年杀人事件 8.9 37万 杨德昌 Edward Yang 1991 剧情 犯罪 详情" [ref=e1952]:
+        - cell "193" [ref=e1953]
+        - cell "牯岭街少年杀人事件" [ref=e1954]
+        - cell "8.9" [ref=e1955]
+        - cell "37万" [ref=e1956]
+        - cell "杨德昌 Edward Yang" [ref=e1957]
+        - cell "1991" [ref=e1958]
+        - cell "剧情 犯罪" [ref=e1959]
+        - cell "详情" [ref=e1960]:
+          - link "详情" [ref=e1961] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292329/
+      - row "194 东京教父 9 29万 今敏 Satoshi Kon 2003 剧情 喜剧 动画 详情" [ref=e1962]:
+        - cell "194" [ref=e1963]
+        - cell "东京教父" [ref=e1964]
+        - cell "9" [ref=e1965]
+        - cell "29万" [ref=e1966]
+        - cell "今敏 Satoshi Kon" [ref=e1967]
+        - cell "2003" [ref=e1968]
+        - cell "剧情 喜剧 动画" [ref=e1969]
+        - cell "详情" [ref=e1970]:
+          - link "详情" [ref=e1971] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1310177/
+      - row "195 小偷家族 8.7 90万 是枝裕和 Hirokazu Koreeda 2018 剧情 犯罪 家庭 详情" [ref=e1972]:
+        - cell "195" [ref=e1973]
+        - cell "小偷家族" [ref=e1974]
+        - cell "8.7" [ref=e1975]
+        - cell "90万" [ref=e1976]
+        - cell "是枝裕和 Hirokazu Koreeda" [ref=e1977]
+        - cell "2018" [ref=e1978]
+        - cell "剧情 犯罪 家庭" [ref=e1979]
+        - cell "详情" [ref=e1980]:
+          - link "详情" [ref=e1981] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/27622447/
+      - row "196 芙蓉镇 9.3 19万 谢晋 Jin Xie 1987 剧情 爱情 详情" [ref=e1982]:
+        - cell "196" [ref=e1983]
+        - cell "芙蓉镇" [ref=e1984]
+        - cell "9.3" [ref=e1985]
+        - cell "19万" [ref=e1986]
+        - cell "谢晋 Jin Xie" [ref=e1987]
+        - cell "1987" [ref=e1988]
+        - cell "剧情 爱情" [ref=e1989]
+        - cell "详情" [ref=e1990]:
+          - link "详情" [ref=e1991] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1297880/
+      - row "197 魔女宅急便 8.7 53万 宫崎骏 Hayao Miyazaki 1989 动画 奇幻 冒险 详情" [ref=e1992]:
+        - cell "197" [ref=e1993]
+        - cell "魔女宅急便" [ref=e1994]
+        - cell "8.7" [ref=e1995]
+        - cell "53万" [ref=e1996]
+        - cell "宫崎骏 Hayao Miyazaki" [ref=e1997]
+        - cell "1989" [ref=e1998]
+        - cell "动画 奇幻 冒险" [ref=e1999]
+        - cell "详情" [ref=e2000]:
+          - link "详情" [ref=e2001] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1307811/
+      - row "198 冰川时代 8.7 69万 卡洛斯·沙尔丹哈 Carlos Saldanha / 克里斯·韦奇 Chris Wedge 2002 喜剧 动画 冒险 详情" [ref=e2002]:
+        - cell "198" [ref=e2003]
+        - cell "冰川时代" [ref=e2004]
+        - cell "8.7" [ref=e2005]
+        - cell "69万" [ref=e2006]
+        - cell "卡洛斯·沙尔丹哈 Carlos Saldanha / 克里斯·韦奇 Chris Wedge" [ref=e2007]
+        - cell "2002" [ref=e2008]
+        - cell "喜剧 动画 冒险" [ref=e2009]
+        - cell "详情" [ref=e2010]:
+          - link "详情" [ref=e2011] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291578/
+      - row "199 忠犬八公物语 9.2 22万 神山征二郎 Seijirô Kôyama 1987 剧情 详情" [ref=e2012]:
+        - cell "199" [ref=e2013]
+        - cell "忠犬八公物语" [ref=e2014]
+        - cell "9.2" [ref=e2015]
+        - cell "22万" [ref=e2016]
+        - cell "神山征二郎 Seijirô Kôyama" [ref=e2017]
+        - cell "1987" [ref=e2018]
+        - cell "剧情" [ref=e2019]
+        - cell "详情" [ref=e2020]:
+          - link "详情" [ref=e2021] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1959195/
+      - row "200 岁月神偷 8.7 62万 罗启锐 Alex Law 2010 剧情 家庭 详情" [ref=e2022]:
+        - cell "200" [ref=e2023]
+        - cell "岁月神偷" [ref=e2024]
+        - cell "8.7" [ref=e2025]
+        - cell "62万" [ref=e2026]
+        - cell "罗启锐 Alex Law" [ref=e2027]
+        - cell "2010" [ref=e2028]
+        - cell "剧情 家庭" [ref=e2029]
+        - cell "详情" [ref=e2030]:
+          - link "详情" [ref=e2031] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3792799/
+      - row "201 遗愿清单 8.7 54万 罗伯·莱纳 Rob Reiner 2007 冒险 喜剧 剧情 详情" [ref=e2032]:
+        - cell "201" [ref=e2033]
+        - cell "遗愿清单" [ref=e2034]
+        - cell "8.7" [ref=e2035]
+        - cell "54万" [ref=e2036]
+        - cell "罗伯·莱纳 Rob Reiner" [ref=e2037]
+        - cell "2007" [ref=e2038]
+        - cell "冒险 喜剧 剧情" [ref=e2039]
+        - cell "详情" [ref=e2040]:
+          - link "详情" [ref=e2041] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1867345/
+      - row "202 荒蛮故事 8.7 52万 达米安·斯兹弗隆 Damián Szifron 2014 剧情 喜剧 犯罪 详情" [ref=e2042]:
+        - cell "202" [ref=e2043]
+        - cell "荒蛮故事" [ref=e2044]
+        - cell "8.7" [ref=e2045]
+        - cell "52万" [ref=e2046]
+        - cell "达米安·斯兹弗隆 Damián Szifron" [ref=e2047]
+        - cell "2014" [ref=e2048]
+        - cell "剧情 喜剧 犯罪" [ref=e2049]
+        - cell "详情" [ref=e2050]:
+          - link "详情" [ref=e2051] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/24750126/
+      - row "203 大佛普拉斯 8.7 56万 黄信尧 Hsin-yao Huang 2017 剧情 喜剧 详情" [ref=e2052]:
+        - cell "203" [ref=e2053]
+        - cell "大佛普拉斯" [ref=e2054]
+        - cell "8.7" [ref=e2055]
+        - cell "56万" [ref=e2056]
+        - cell "黄信尧 Hsin-yao Huang" [ref=e2057]
+        - cell "2017" [ref=e2058]
+        - cell "剧情 喜剧" [ref=e2059]
+        - cell "详情" [ref=e2060]:
+          - link "详情" [ref=e2061] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/27059130/
+      - row "204 源代码 8.6 93万 邓肯·琼斯 Duncan Jones 2011 科幻 悬疑 惊悚 详情" [ref=e2062]:
+        - cell "204" [ref=e2063]
+        - cell "源代码" [ref=e2064]
+        - cell "8.6" [ref=e2065]
+        - cell "93万" [ref=e2066]
+        - cell "邓肯·琼斯 Duncan Jones" [ref=e2067]
+        - cell "2011" [ref=e2068]
+        - cell "科幻 悬疑 惊悚" [ref=e2069]
+        - cell "详情" [ref=e2070]:
+          - link "详情" [ref=e2071] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3075287/
+      - row "205 花束般的恋爱 8.6 84万 土井裕泰 Nobuhiro Doi 2021 剧情 爱情 详情" [ref=e2072]:
+        - cell "205" [ref=e2073]
+        - cell "花束般的恋爱" [ref=e2074]
+        - cell "8.6" [ref=e2075]
+        - cell "84万" [ref=e2076]
+        - cell "土井裕泰 Nobuhiro Doi" [ref=e2077]
+        - cell "2021" [ref=e2078]
+        - cell "剧情 爱情" [ref=e2079]
+        - cell "详情" [ref=e2080]:
+          - link "详情" [ref=e2081] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/34874432/
+      - row "206 白日梦想家 8.6 66万 本·斯蒂勒 Ben Stiller 2013 剧情 喜剧 冒险 详情" [ref=e2082]:
+        - cell "206" [ref=e2083]
+        - cell "白日梦想家" [ref=e2084]
+        - cell "8.6" [ref=e2085]
+        - cell "66万" [ref=e2086]
+        - cell "本·斯蒂勒 Ben Stiller" [ref=e2087]
+        - cell "2013" [ref=e2088]
+        - cell "剧情 喜剧 冒险" [ref=e2089]
+        - cell "详情" [ref=e2090]:
+          - link "详情" [ref=e2091] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/2133323/
+      - row "207 爱乐之城 8.4 113万 达米恩·查泽雷 Damien Chazelle 2016 剧情 爱情 歌舞 详情" [ref=e2092]:
+        - cell "207" [ref=e2093]
+        - cell "爱乐之城" [ref=e2094]
+        - cell "8.4" [ref=e2095]
+        - cell "113万" [ref=e2096]
+        - cell "达米恩·查泽雷 Damien Chazelle" [ref=e2097]
+        - cell "2016" [ref=e2098]
+        - cell "剧情 爱情 歌舞" [ref=e2099]
+        - cell "详情" [ref=e2100]:
+          - link "详情" [ref=e2101] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25934014/
+      - row "208 疯狂的麦克斯4：狂暴之路 8.7 62万 乔治·米勒 George Miller 2015 动作 科幻 冒险 详情" [ref=e2102]:
+        - cell "208" [ref=e2103]
+        - cell "疯狂的麦克斯4：狂暴之路" [ref=e2104]
+        - cell "8.7" [ref=e2105]
+        - cell "62万" [ref=e2106]
+        - cell "乔治·米勒 George Miller" [ref=e2107]
+        - cell "2015" [ref=e2108]
+        - cell "动作 科幻 冒险" [ref=e2109]
+        - cell "详情" [ref=e2110]:
+          - link "详情" [ref=e2111] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/3592854/
+      - row "209 可可西里 8.9 35万 陆川 Chuan Lu 2004 剧情 犯罪 详情" [ref=e2112]:
+        - cell "209" [ref=e2113]
+        - cell "可可西里" [ref=e2114]
+        - cell "8.9" [ref=e2115]
+        - cell "35万" [ref=e2116]
+        - cell "陆川 Chuan Lu" [ref=e2117]
+        - cell "2004" [ref=e2118]
+        - cell "剧情 犯罪" [ref=e2119]
+        - cell "详情" [ref=e2120]:
+          - link "详情" [ref=e2121] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1308857/
+      - row "210 你看起来好像很好吃 8.9 38万 藤森雅也 Masaya Fujimori 2010 剧情 动画 儿童 详情" [ref=e2122]:
+        - cell "210" [ref=e2123]
+        - cell "你看起来好像很好吃" [ref=e2124]
+        - cell "8.9" [ref=e2125]
+        - cell "38万" [ref=e2126]
+        - cell "藤森雅也 Masaya Fujimori" [ref=e2127]
+        - cell "2010" [ref=e2128]
+        - cell "剧情 动画 儿童" [ref=e2129]
+        - cell "详情" [ref=e2130]:
+          - link "详情" [ref=e2131] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/4848115/
+      - row "211 贫民窟的百万富翁 8.6 81万 丹尼·鲍尔 Danny Boyle / 洛芙琳·坦丹 Loveleen Tandan 2008 剧情 爱情 详情" [ref=e2132]:
+        - cell "211" [ref=e2133]
+        - cell "贫民窟的百万富翁" [ref=e2134]
+        - cell "8.6" [ref=e2135]
+        - cell "81万" [ref=e2136]
+        - cell "丹尼·鲍尔 Danny Boyle / 洛芙琳·坦丹 Loveleen Tandan" [ref=e2137]
+        - cell "2008" [ref=e2138]
+        - cell "剧情 爱情" [ref=e2139]
+        - cell "详情" [ref=e2140]:
+          - link "详情" [ref=e2141] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/2209573/
+      - row "212 波西米亚狂想曲 8.6 70万 布莱恩·辛格 Bryan Singer 2018 剧情 传记 同性 音乐 详情" [ref=e2142]:
+        - cell "212" [ref=e2143]
+        - cell "波西米亚狂想曲" [ref=e2144]
+        - cell "8.6" [ref=e2145]
+        - cell "70万" [ref=e2146]
+        - cell "布莱恩·辛格 Bryan Singer" [ref=e2147]
+        - cell "2018" [ref=e2148]
+        - cell "剧情 传记 同性 音乐" [ref=e2149]
+        - cell "详情" [ref=e2150]:
+          - link "详情" [ref=e2151] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/5300054/
+      - row "213 城市之光 9.3 17万 查理·卓别林 Charles Chaplin 1931 喜剧 剧情 爱情 详情" [ref=e2152]:
+        - cell "213" [ref=e2153]
+        - cell "城市之光" [ref=e2154]
+        - cell "9.3" [ref=e2155]
+        - cell "17万" [ref=e2156]
+        - cell "查理·卓别林 Charles Chaplin" [ref=e2157]
+        - cell "1931" [ref=e2158]
+        - cell "喜剧 剧情 爱情" [ref=e2159]
+        - cell "详情" [ref=e2160]:
+          - link "详情" [ref=e2161] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293908/
+      - row "214 爆裂鼓手 8.6 70万 达米恩·查泽雷 Damien Chazelle 2014 剧情 音乐 详情" [ref=e2162]:
+        - cell "214" [ref=e2163]
+        - cell "爆裂鼓手" [ref=e2164]
+        - cell "8.6" [ref=e2165]
+        - cell "70万" [ref=e2166]
+        - cell "达米恩·查泽雷 Damien Chazelle" [ref=e2167]
+        - cell "2014" [ref=e2168]
+        - cell "剧情 音乐" [ref=e2169]
+        - cell "详情" [ref=e2170]:
+          - link "详情" [ref=e2171] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25773932/
+      - row "215 哈利·波特与死亡圣器(上) 8.6 70万 大卫·叶茨 David Yates 2010 奇幻 冒险 详情" [ref=e2172]:
+        - cell "215" [ref=e2173]
+        - cell "哈利·波特与死亡圣器(上)" [ref=e2174]
+        - cell "8.6" [ref=e2175]
+        - cell "70万" [ref=e2176]
+        - cell "大卫·叶茨 David Yates" [ref=e2177]
+        - cell "2010" [ref=e2178]
+        - cell "奇幻 冒险" [ref=e2179]
+        - cell "详情" [ref=e2180]:
+          - link "详情" [ref=e2181] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/2051007/
+      - row "216 大红灯笼高高挂 8.8 38万 张艺谋 Yimou Zhang 1991 剧情 详情" [ref=e2182]:
+        - cell "216" [ref=e2183]
+        - cell "大红灯笼高高挂" [ref=e2184]
+        - cell "8.8" [ref=e2185]
+        - cell "38万" [ref=e2186]
+        - cell "张艺谋 Yimou Zhang" [ref=e2187]
+        - cell "1991" [ref=e2188]
+        - cell "剧情" [ref=e2189]
+        - cell "详情" [ref=e2190]:
+          - link "详情" [ref=e2191] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293323/
+      - row "217 无耻混蛋 8.7 57万 昆汀·塔伦蒂诺 Quentin Tarantino 2009 剧情 犯罪 详情" [ref=e2192]:
+        - cell "217" [ref=e2193]
+        - cell "无耻混蛋" [ref=e2194]
+        - cell "8.7" [ref=e2195]
+        - cell "57万" [ref=e2196]
+        - cell "昆汀·塔伦蒂诺 Quentin Tarantino" [ref=e2197]
+        - cell "2009" [ref=e2198]
+        - cell "剧情 犯罪" [ref=e2199]
+        - cell "详情" [ref=e2200]:
+          - link "详情" [ref=e2201] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1438652/
+      - row "218 青蛇 8.6 61万 徐克 Hark Tsui 1993 剧情 爱情 奇幻 古装 详情" [ref=e2202]:
+        - cell "218" [ref=e2203]
+        - cell "青蛇" [ref=e2204]
+        - cell "8.6" [ref=e2205]
+        - cell "61万" [ref=e2206]
+        - cell "徐克 Hark Tsui" [ref=e2207]
+        - cell "1993" [ref=e2208]
+        - cell "剧情 爱情 奇幻 古装" [ref=e2209]
+        - cell "详情" [ref=e2210]:
+          - link "详情" [ref=e2211] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1303394/
+      - row "219 终结者2：审判日 8.8 39万 詹姆斯·卡梅隆 James Cameron 1991 动作 科幻 详情" [ref=e2212]:
+        - cell "219" [ref=e2213]
+        - cell "终结者2：审判日" [ref=e2214]
+        - cell "8.8" [ref=e2215]
+        - cell "39万" [ref=e2216]
+        - cell "詹姆斯·卡梅隆 James Cameron" [ref=e2217]
+        - cell "1991" [ref=e2218]
+        - cell "动作 科幻" [ref=e2219]
+        - cell "详情" [ref=e2220]:
+          - link "详情" [ref=e2221] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291844/
+      - row "220 东邪西毒 8.6 64万 王家卫 Kar Wai Wong 1994 剧情 动作 爱情 武侠 古装 详情" [ref=e2222]:
+        - cell "220" [ref=e2223]
+        - cell "东邪西毒" [ref=e2224]
+        - cell "8.6" [ref=e2225]
+        - cell "64万" [ref=e2226]
+        - cell "王家卫 Kar Wai Wong" [ref=e2227]
+        - cell "1994" [ref=e2228]
+        - cell "剧情 动作 爱情 武侠 古装" [ref=e2229]
+        - cell "详情" [ref=e2230]:
+          - link "详情" [ref=e2231] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292328/
+      - row "221 黑天鹅 8.6 85万 达伦·阿罗诺夫斯基 Darren Aronofsky 2010 剧情 惊悚 详情" [ref=e2232]:
+        - cell "221" [ref=e2233]
+        - cell "黑天鹅" [ref=e2234]
+        - cell "8.6" [ref=e2235]
+        - cell "85万" [ref=e2236]
+        - cell "达伦·阿罗诺夫斯基 Darren Aronofsky" [ref=e2237]
+        - cell "2010" [ref=e2238]
+        - cell "剧情 惊悚" [ref=e2239]
+        - cell "详情" [ref=e2240]:
+          - link "详情" [ref=e2241] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1978709/
+      - row "222 新龙门客栈 8.7 51万 李惠民 Raymond Lee 1992 动作 爱情 武侠 古装 详情" [ref=e2242]:
+        - cell "222" [ref=e2243]
+        - cell "新龙门客栈" [ref=e2244]
+        - cell "8.7" [ref=e2245]
+        - cell "51万" [ref=e2246]
+        - cell "李惠民 Raymond Lee" [ref=e2247]
+        - cell "1992" [ref=e2248]
+        - cell "动作 爱情 武侠 古装" [ref=e2249]
+        - cell "详情" [ref=e2250]:
+          - link "详情" [ref=e2251] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292287/
+      - row "223 初恋这件小事 8.5 106万 - 2010 剧情 喜剧 爱情 详情" [ref=e2252]:
+        - cell "223" [ref=e2253]
+        - cell "初恋这件小事" [ref=e2254]
+        - cell "8.5" [ref=e2255]
+        - cell "106万" [ref=e2256]
+        - cell "-" [ref=e2257]
+        - cell "2010" [ref=e2258]
+        - cell "剧情 喜剧 爱情" [ref=e2259]
+        - cell "详情" [ref=e2260]:
+          - link "详情" [ref=e2261] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/4739952/
+      - row "224 千钧一发 8.8 36万 安德鲁·尼科尔 Andrew Niccol 1997 剧情 科幻 惊悚 详情" [ref=e2262]:
+        - cell "224" [ref=e2263]
+        - cell "千钧一发" [ref=e2264]
+        - cell "8.8" [ref=e2265]
+        - cell "36万" [ref=e2266]
+        - cell "安德鲁·尼科尔 Andrew Niccol" [ref=e2267]
+        - cell "1997" [ref=e2268]
+        - cell "剧情 科幻 惊悚" [ref=e2269]
+        - cell "详情" [ref=e2270]:
+          - link "详情" [ref=e2271] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1300117/
+      - row "225 人工智能 8.7 51万 史蒂文·斯皮尔伯格 Steven Spielberg 2001 剧情 科幻 详情" [ref=e2272]:
+        - cell "225" [ref=e2273]
+        - cell "人工智能" [ref=e2274]
+        - cell "8.7" [ref=e2275]
+        - cell "51万" [ref=e2276]
+        - cell "史蒂文·斯皮尔伯格 Steven Spielberg" [ref=e2277]
+        - cell "2001" [ref=e2278]
+        - cell "剧情 科幻" [ref=e2279]
+        - cell "详情" [ref=e2280]:
+          - link "详情" [ref=e2281] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1302827/
+      - row "226 崖上的波妞 8.6 58万 宫崎骏 Hayao Miyazaki 2008 动画 奇幻 冒险 详情" [ref=e2282]:
+        - cell "226" [ref=e2283]
+        - cell "崖上的波妞" [ref=e2284]
+        - cell "8.6" [ref=e2285]
+        - cell "58万" [ref=e2286]
+        - cell "宫崎骏 Hayao Miyazaki" [ref=e2287]
+        - cell "2008" [ref=e2288]
+        - cell "动画 奇幻 冒险" [ref=e2289]
+        - cell "详情" [ref=e2290]:
+          - link "详情" [ref=e2291] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1959877/
+      - row "227 虎口脱险 8.9 30万 杰拉尔·乌里 Gérard Oury 1966 喜剧 战争 详情" [ref=e2292]:
+        - cell "227" [ref=e2293]
+        - cell "虎口脱险" [ref=e2294]
+        - cell "8.9" [ref=e2295]
+        - cell "30万" [ref=e2296]
+        - cell "杰拉尔·乌里 Gérard Oury" [ref=e2297]
+        - cell "1966" [ref=e2298]
+        - cell "喜剧 战争" [ref=e2299]
+        - cell "详情" [ref=e2300]:
+          - link "详情" [ref=e2301] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1296909/
+      - row "228 雨人 8.7 45万 巴瑞·莱文森 Barry Levinson 1988 剧情 详情" [ref=e2302]:
+        - cell "228" [ref=e2303]
+        - cell "雨人" [ref=e2304]
+        - cell "8.7" [ref=e2305]
+        - cell "45万" [ref=e2306]
+        - cell "巴瑞·莱文森 Barry Levinson" [ref=e2307]
+        - cell "1988" [ref=e2308]
+        - cell "剧情" [ref=e2309]
+        - cell "详情" [ref=e2310]:
+          - link "详情" [ref=e2311] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291870/
+      - row "229 哈利·波特与凤凰社 8.6 70万 大卫·叶茨 David Yates 2007 奇幻 冒险 详情" [ref=e2312]:
+        - cell "229" [ref=e2313]
+        - cell "哈利·波特与凤凰社" [ref=e2314]
+        - cell "8.6" [ref=e2315]
+        - cell "70万" [ref=e2316]
+        - cell "大卫·叶茨 David Yates" [ref=e2317]
+        - cell "2007" [ref=e2318]
+        - cell "奇幻 冒险" [ref=e2319]
+        - cell "详情" [ref=e2320]:
+          - link "详情" [ref=e2321] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1457217/
+      - row "230 彗星来的那一夜 8.6 69万 詹姆斯·沃德·布柯特 James Ward Byrkit 2013 科幻 悬疑 惊悚 详情" [ref=e2322]:
+        - cell "230" [ref=e2323]
+        - cell "彗星来的那一夜" [ref=e2324]
+        - cell "8.6" [ref=e2325]
+        - cell "69万" [ref=e2326]
+        - cell "詹姆斯·沃德·布柯特 James Ward Byrkit" [ref=e2327]
+        - cell "2013" [ref=e2328]
+        - cell "科幻 悬疑 惊悚" [ref=e2329]
+        - cell "详情" [ref=e2330]:
+          - link "详情" [ref=e2331] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25807345/
+      - row "231 罗生门 8.8 36万 黑泽明 Akira Kurosawa 1950 剧情 犯罪 悬疑 详情" [ref=e2332]:
+        - cell "231" [ref=e2333]
+        - cell "罗生门" [ref=e2334]
+        - cell "8.8" [ref=e2335]
+        - cell "36万" [ref=e2336]
+        - cell "黑泽明 Akira Kurosawa" [ref=e2337]
+        - cell "1950" [ref=e2338]
+        - cell "剧情 犯罪 悬疑" [ref=e2339]
+        - cell "详情" [ref=e2340]:
+          - link "详情" [ref=e2341] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291879/
+      - row "232 海边的曼彻斯特 8.6 66万 肯尼斯·罗纳根 Kenneth Lonergan 2016 剧情 家庭 详情" [ref=e2342]:
+        - cell "232" [ref=e2343]
+        - cell "海边的曼彻斯特" [ref=e2344]
+        - cell "8.6" [ref=e2345]
+        - cell "66万" [ref=e2346]
+        - cell "肯尼斯·罗纳根 Kenneth Lonergan" [ref=e2347]
+        - cell "2016" [ref=e2348]
+        - cell "剧情 家庭" [ref=e2349]
+        - cell "详情" [ref=e2350]:
+          - link "详情" [ref=e2351] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25980443/
+      - row "233 恋恋笔记本 8.5 76万 尼克·卡索维茨 Nick Cassavetes 2004 剧情 爱情 详情" [ref=e2352]:
+        - cell "233" [ref=e2353]
+        - cell "恋恋笔记本" [ref=e2354]
+        - cell "8.5" [ref=e2355]
+        - cell "76万" [ref=e2356]
+        - cell "尼克·卡索维茨 Nick Cassavetes" [ref=e2357]
+        - cell "2004" [ref=e2358]
+        - cell "剧情 爱情" [ref=e2359]
+        - cell "详情" [ref=e2360]:
+          - link "详情" [ref=e2361] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1309163/
+      - row "234 火星救援 8.5 85万 雷德利·斯科特 Ridley Scott 2015 剧情 科幻 冒险 详情" [ref=e2362]:
+        - cell "234" [ref=e2363]
+        - cell "火星救援" [ref=e2364]
+        - cell "8.5" [ref=e2365]
+        - cell "85万" [ref=e2366]
+        - cell "雷德利·斯科特 Ridley Scott" [ref=e2367]
+        - cell "2015" [ref=e2368]
+        - cell "剧情 科幻 冒险" [ref=e2369]
+        - cell "详情" [ref=e2370]:
+          - link "详情" [ref=e2371] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25864085/
+      - row "235 真爱至上 8.5 81万 理查德·柯蒂斯 Richard Curtis 2003 喜剧 剧情 爱情 详情" [ref=e2372]:
+        - cell "235" [ref=e2373]
+        - cell "真爱至上" [ref=e2374]
+        - cell "8.5" [ref=e2375]
+        - cell "81万" [ref=e2376]
+        - cell "理查德·柯蒂斯 Richard Curtis" [ref=e2377]
+        - cell "2003" [ref=e2378]
+        - cell "喜剧 剧情 爱情" [ref=e2379]
+        - cell "详情" [ref=e2380]:
+          - link "详情" [ref=e2381] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1292401/
+      - row "236 黑客帝国2：重装上阵 8.7 46万 拉娜·沃卓斯基 Lana Wachowski / 莉莉·沃卓斯基 Lilly Wachowski 2003 动作 科幻 详情" [ref=e2382]:
+        - cell "236" [ref=e2383]
+        - cell "黑客帝国2：重装上阵" [ref=e2384]
+        - cell "8.7" [ref=e2385]
+        - cell "46万" [ref=e2386]
+        - cell "拉娜·沃卓斯基 Lana Wachowski / 莉莉·沃卓斯基 Lilly Wachowski" [ref=e2387]
+        - cell "2003" [ref=e2388]
+        - cell "动作 科幻" [ref=e2389]
+        - cell "详情" [ref=e2390]:
+          - link "详情" [ref=e2391] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1304141/
+      - row "237 冰雪奇缘 8.5 84万 克里斯·巴克 Chris Buck / 珍妮弗·李 Jennifer Lee 2013 喜剧 动画 奇幻 歌舞 详情" [ref=e2392]:
+        - cell "237" [ref=e2393]
+        - cell "冰雪奇缘" [ref=e2394]
+        - cell "8.5" [ref=e2395]
+        - cell "84万" [ref=e2396]
+        - cell "克里斯·巴克 Chris Buck / 珍妮弗·李 Jennifer Lee" [ref=e2397]
+        - cell "2013" [ref=e2398]
+        - cell "喜剧 动画 奇幻 歌舞" [ref=e2399]
+        - cell "详情" [ref=e2400]:
+          - link "详情" [ref=e2401] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/4202982/
+      - row "238 步履不停 8.8 33万 是枝裕和 Hirokazu Koreeda 2008 剧情 家庭 详情" [ref=e2402]:
+        - cell "238" [ref=e2403]
+        - cell "步履不停" [ref=e2404]
+        - cell "8.8" [ref=e2405]
+        - cell "33万" [ref=e2406]
+        - cell "是枝裕和 Hirokazu Koreeda" [ref=e2407]
+        - cell "2008" [ref=e2408]
+        - cell "剧情 家庭" [ref=e2409]
+        - cell "详情" [ref=e2410]:
+          - link "详情" [ref=e2411] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/2222996/
+      - row "239 千年女优 8.8 32万 今敏 Satoshi Kon 2001 动画 剧情 爱情 详情" [ref=e2412]:
+        - cell "239" [ref=e2413]
+        - cell "千年女优" [ref=e2414]
+        - cell "8.8" [ref=e2415]
+        - cell "32万" [ref=e2416]
+        - cell "今敏 Satoshi Kon" [ref=e2417]
+        - cell "2001" [ref=e2418]
+        - cell "动画 剧情 爱情" [ref=e2419]
+        - cell "详情" [ref=e2420]:
+          - link "详情" [ref=e2421] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1307394/
+      - row "240 奇迹男孩 8.6 60万 斯蒂芬·卓博斯基 Stephen Chbosky 2017 剧情 儿童 家庭 详情" [ref=e2422]:
+        - cell "240" [ref=e2423]
+        - cell "奇迹男孩" [ref=e2424]
+        - cell "8.6" [ref=e2425]
+        - cell "60万" [ref=e2426]
+        - cell "斯蒂芬·卓博斯基 Stephen Chbosky" [ref=e2427]
+        - cell "2017" [ref=e2428]
+        - cell "剧情 儿童 家庭" [ref=e2429]
+        - cell "详情" [ref=e2430]:
+          - link "详情" [ref=e2431] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26787574/
+      - row "241 谍影重重2 8.7 40万 保罗·格林格拉斯 Paul Greengrass 2004 动作 悬疑 惊悚 详情" [ref=e2432]:
+        - cell "241" [ref=e2433]
+        - cell "谍影重重2" [ref=e2434]
+        - cell "8.7" [ref=e2435]
+        - cell "40万" [ref=e2436]
+        - cell "保罗·格林格拉斯 Paul Greengrass" [ref=e2437]
+        - cell "2004" [ref=e2438]
+        - cell "动作 悬疑 惊悚" [ref=e2439]
+        - cell "详情" [ref=e2440]:
+          - link "详情" [ref=e2441] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1308767/
+      - row "242 蜘蛛侠：平行宇宙 8.6 76万 鲍勃·佩尔西凯蒂 Bob Persichetti / 彼得·拉姆齐 Peter Ramsey 2018 动作 科幻 动画 冒险 详情" [ref=e2442]:
+        - cell "242" [ref=e2443]
+        - cell "蜘蛛侠：平行宇宙" [ref=e2444]
+        - cell "8.6" [ref=e2445]
+        - cell "76万" [ref=e2446]
+        - cell "鲍勃·佩尔西凯蒂 Bob Persichetti / 彼得·拉姆齐 Peter Ramsey" [ref=e2447]
+        - cell "2018" [ref=e2448]
+        - cell "动作 科幻 动画 冒险" [ref=e2449]
+        - cell "详情" [ref=e2450]:
+          - link "详情" [ref=e2451] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26374197/
+      - row "243 战争之王 8.7 42万 安德鲁·尼科尔 Andrew Niccol 2005 剧情 犯罪 详情" [ref=e2452]:
+        - cell "243" [ref=e2453]
+        - cell "战争之王" [ref=e2454]
+        - cell "8.7" [ref=e2455]
+        - cell "42万" [ref=e2456]
+        - cell "安德鲁·尼科尔 Andrew Niccol" [ref=e2457]
+        - cell "2005" [ref=e2458]
+        - cell "剧情 犯罪" [ref=e2459]
+        - cell "详情" [ref=e2460]:
+          - link "详情" [ref=e2461] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1419936/
+      - row "244 攻壳机动队 9 22万 押井守 Mamoru Oshii 1995 动作 科幻 动画 详情" [ref=e2462]:
+        - cell "244" [ref=e2463]
+        - cell "攻壳机动队" [ref=e2464]
+        - cell "9" [ref=e2465]
+        - cell "22万" [ref=e2466]
+        - cell "押井守 Mamoru Oshii" [ref=e2467]
+        - cell "1995" [ref=e2468]
+        - cell "动作 科幻 动画" [ref=e2469]
+        - cell "详情" [ref=e2470]:
+          - link "详情" [ref=e2471] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1291936/
+      - row "245 血钻 8.7 43万 爱德华·兹威克 Edward Zwick 2006 剧情 惊悚 冒险 详情" [ref=e2472]:
+        - cell "245" [ref=e2473]
+        - cell "血钻" [ref=e2474]
+        - cell "8.7" [ref=e2475]
+        - cell "43万" [ref=e2476]
+        - cell "爱德华·兹威克 Edward Zwick" [ref=e2477]
+        - cell "2006" [ref=e2478]
+        - cell "剧情 惊悚 冒险" [ref=e2479]
+        - cell "详情" [ref=e2480]:
+          - link "详情" [ref=e2481] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1428175/
+      - row "246 小姐 8.5 59万 朴赞郁 Chan-wook Park 2016 剧情 悬疑 情色 同性 详情" [ref=e2482]:
+        - cell "246" [ref=e2483]
+        - cell "小姐" [ref=e2484]
+        - cell "8.5" [ref=e2485]
+        - cell "59万" [ref=e2486]
+        - cell "朴赞郁 Chan-wook Park" [ref=e2487]
+        - cell "2016" [ref=e2488]
+        - cell "剧情 悬疑 情色 同性" [ref=e2489]
+        - cell "详情" [ref=e2490]:
+          - link "详情" [ref=e2491] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25977027/
+      - row "247 血观音 8.6 57万 杨雅喆 Ya-che Yang 2017 剧情 悬疑 详情" [ref=e2492]:
+        - cell "247" [ref=e2493]
+        - cell "血观音" [ref=e2494]
+        - cell "8.6" [ref=e2495]
+        - cell "57万" [ref=e2496]
+        - cell "杨雅喆 Ya-che Yang" [ref=e2497]
+        - cell "2017" [ref=e2498]
+        - cell "剧情 悬疑" [ref=e2499]
+        - cell "详情" [ref=e2500]:
+          - link "详情" [ref=e2501] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/27113517/
+      - row "248 隐藏人物 8.9 28万 特奥多尔·梅尔菲 Theodore Melfi 2016 剧情 传记 历史 详情" [ref=e2502]:
+        - cell "248" [ref=e2503]
+        - cell "隐藏人物" [ref=e2504]
+        - cell "8.9" [ref=e2505]
+        - cell "28万" [ref=e2506]
+        - cell "特奥多尔·梅尔菲 Theodore Melfi" [ref=e2507]
+        - cell "2016" [ref=e2508]
+        - cell "剧情 传记 历史" [ref=e2509]
+        - cell "详情" [ref=e2510]:
+          - link "详情" [ref=e2511] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/26615208/
+      - row "249 魂断蓝桥 8.8 31万 茂文·勒鲁瓦 Mervyn LeRoy 1940 剧情 爱情 战争 详情" [ref=e2512]:
+        - cell "249" [ref=e2513]
+        - cell "魂断蓝桥" [ref=e2514]
+        - cell "8.8" [ref=e2515]
+        - cell "31万" [ref=e2516]
+        - cell "茂文·勒鲁瓦 Mervyn LeRoy" [ref=e2517]
+        - cell "1940" [ref=e2518]
+        - cell "剧情 爱情 战争" [ref=e2519]
+        - cell "详情" [ref=e2520]:
+          - link "详情" [ref=e2521] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/1293964/
+      - row "250 房间 8.7 40万 伦尼·阿伯拉罕森 Lenny Abrahamson 2015 剧情 家庭 详情" [ref=e2522]:
+        - cell "250" [ref=e2523]
+        - cell "房间" [ref=e2524]
+        - cell "8.7" [ref=e2525]
+        - cell "40万" [ref=e2526]
+        - cell "伦尼·阿伯拉罕森 Lenny Abrahamson" [ref=e2527]
+        - cell "2015" [ref=e2528]
+        - cell "剧情 家庭" [ref=e2529]
+        - cell "详情" [ref=e2530]:
+          - link "详情" [ref=e2531] [cursor=pointer]:
+            - /url: https://movie.douban.com/subject/25724855/
