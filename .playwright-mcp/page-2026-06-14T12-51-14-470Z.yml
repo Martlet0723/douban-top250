@@ -1,0 +1,46 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "豆瓣电影 Top250 · 数据查询系统" [level=1] [ref=e4]
+    - generic [ref=e5]:
+      - button "开始采集" [ref=e6] [cursor=pointer]
+      - button "导出 Excel" [ref=e7] [cursor=pointer]
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]: 电影总数
+      - generic [ref=e11]: "0"
+      - generic [ref=e12]: 豆瓣 Top250
+    - generic [ref=e13]:
+      - generic [ref=e14]: 平均评分
+      - generic [ref=e15]: "-"
+      - generic [ref=e16]: "-"
+    - generic [ref=e17]:
+      - generic [ref=e18]: 总评价人数
+      - generic [ref=e19]: "-"
+      - generic [ref=e20]: 条评论
+  - generic [ref=e21]:
+    - heading "评分分布" [level=3] [ref=e23]
+    - generic [ref=e26]:
+      - heading "TOP 5 高分电影" [level=3] [ref=e27]
+      - generic [ref=e28]: 暂无数据
+  - generic [ref=e29]:
+    - generic [ref=e30]: 评分 ≥
+    - slider [ref=e31]: "0"
+    - generic [ref=e32]: 全部
+    - textbox "搜索电影名..." [ref=e33]
+    - generic [ref=e34]: 共 0 条
+  - table [ref=e37]:
+    - rowgroup [ref=e38]:
+      - row "# 电影名称 评分 评价人数 导演 年份 类型 链接" [ref=e39]:
+        - columnheader "#" [ref=e40]
+        - columnheader "电影名称" [ref=e41]
+        - columnheader "评分" [ref=e42]
+        - columnheader "评价人数" [ref=e43]
+        - columnheader "导演" [ref=e44]
+        - columnheader "年份" [ref=e45]
+        - columnheader "类型" [ref=e46]
+        - columnheader "链接" [ref=e47]
+    - rowgroup [ref=e48]:
+      - row "暂无数据 点击「开始采集」获取豆瓣电影 Top250" [ref=e49]:
+        - cell "暂无数据 点击「开始采集」获取豆瓣电影 Top250" [ref=e50]:
+          - paragraph [ref=e51]: 暂无数据
+          - paragraph [ref=e52]: 点击「开始采集」获取豆瓣电影 Top250

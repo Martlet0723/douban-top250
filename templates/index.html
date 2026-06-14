@@ -57,6 +57,13 @@
   .search-box:focus { border-color: var(--accent2); }
   .result-hint { font-size: 12px; color: var(--muted); margin-left: 4px; }
 
+  /* Progress bar — inline in filter row */
+  .progress-wrap { display: none; align-items: center; gap: 8px; margin-left: 4px; }
+  .progress-wrap.active { display: inline-flex; }
+  .progress-bar { width: 180px; height: 8px; background: #e8e8e8; border-radius: 4px; overflow: hidden; flex-shrink: 0; }
+  .progress-bar .fill { height: 100%; background: linear-gradient(90deg, var(--accent), #05a84d); border-radius: 4px; transition: width .8s ease; width: 0%; }
+  .progress-text { font-size: 12px; color: var(--muted); white-space: nowrap; }
+
   /* Table — fixed height + scroll, 250 rows confined */
   .table-wrap { background: var(--card); border-radius: var(--radius); border: 1px solid var(--border); box-shadow: var(--shadow); overflow: hidden; }
   .table-scroll { max-height: 520px; overflow-y: auto; }
@@ -141,6 +148,10 @@
     <span class="rating-val" id="ratingLabel">全部</span>
     <input type="text" class="search-box" id="searchInput" placeholder="搜索电影名..." oninput="debounceFilter()">
     <span class="result-hint" id="resultHint"></span>
+    <div class="progress-wrap" id="progressWrap">
+      <div class="progress-bar"><div class="fill" id="progressFill"></div></div>
+      <span class="progress-text" id="progressText"></span>
+    </div>
     <span class="status" id="statusMsg"></span>
   </div>
 
@@ -236,14 +247,12 @@ function renderChart(movies) {
       datasets: [{
         label: '电影数量',
         data: counts,
-        backgroundColor: counts.map((_, i) =>
-          ['#91c8f6','#74b4e8','#4d9de0','#2f84d4','#1a6fc4'][i]
-        ),
+        backgroundColor: ['#a8d8ea','#7ec8e3','#54b8dc','#2a94c4','#1a6fc4'],
         borderRadius: 4,
       }]
     },
     options: {
-      animation: false,
+      animation: { duration: 1500, easing: 'easeOutQuart' },
       responsive: true,
       maintainAspectRatio: false,
       plugins: { legend: { display: false } },
@@ -393,31 +402,65 @@ function onFilterChange() {
 // ============================================================
 async function doScrape() {
   const btn = document.getElementById('scrapeBtn');
+  const progressWrap = document.getElementById('progressWrap');
+  const progressFill = document.getElementById('progressFill');
+  const progressText = document.getElementById('progressText');
+
   btn.disabled = true;
   btn.textContent = '采集中...';
-  document.getElementById('statusMsg').textContent = '正在采集全部 10 页，预计 15 秒...';
-  document.getElementById('statusMsg').className = 'status';
+  progressWrap.classList.add('active');
 
-  try {
-    const resp = await fetch('/api/movies/scrape', { method: 'POST' });
-    if (!resp.ok) {
-      const err = await resp.json();
-      throw new Error(err.detail || '未知错误');
-    }
-    const data = await resp.json();
-    document.getElementById('statusMsg').textContent = '采集完成：' + data.count + ' 条';
-    document.getElementById('statusMsg').className = 'status';
-    document.getElementById('ratingSlider').value = 0;
-    document.getElementById('ratingLabel').textContent = '全部';
-    document.getElementById('searchInput').value = '';
-    await refreshAll();
-  } catch (e) {
-    document.getElementById('statusMsg').textContent = '采集失败: ' + e.message;
+  // 启动采集
+  const resp = await fetch('/api/movies/scrape', { method: 'POST' });
+  if (!resp.ok) {
+    const err = await resp.json();
+    document.getElementById('statusMsg').textContent = '采集失败: ' + (err.detail || '未知错误');
     document.getElementById('statusMsg').className = 'status error';
-  } finally {
     btn.disabled = false;
     btn.textContent = '开始采集';
+    progressWrap.classList.remove('active');
+    return;
   }
+
+  // 轮询进度
+  let pollTimer = setInterval(async () => {
+    try {
+      const s = await fetch('/api/movies/scrape/status').then(r => r.json());
+      const pct = s.total > 0 ? Math.round(s.current / s.total * 100) : 0;
+      progressFill.style.width = pct + '%';
+      progressText.textContent = `${s.current}/${s.total} · ${s.count}条`;
+
+      if (s.current === -1) {
+        clearInterval(pollTimer);
+        document.getElementById('statusMsg').textContent = '采集失败，请重试';
+        document.getElementById('statusMsg').className = 'status error';
+        btn.disabled = false;
+        btn.textContent = '开始采集';
+        progressWrap.classList.remove('active');
+      }
+
+      if (!s.running && s.current > 0) {
+        clearInterval(pollTimer);
+        progressFill.style.width = '100%';
+        progressText.textContent = `${s.count} 条完成`;
+        setTimeout(() => {
+          progressWrap.classList.remove('active');
+          document.getElementById('statusMsg').textContent = '';
+        }, 1500);
+        document.getElementById('ratingSlider').value = 0;
+        document.getElementById('ratingLabel').textContent = '全部';
+        document.getElementById('searchInput').value = '';
+        btn.disabled = false;
+        btn.textContent = '开始采集';
+        await refreshAll();
+      }
+    } catch (e) {
+      clearInterval(pollTimer);
+      progressWrap.classList.remove('active');
+      btn.disabled = false;
+      btn.textContent = '开始采集';
+    }
+  }, 500);
 }
 
 // ============================================================

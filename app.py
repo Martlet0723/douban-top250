@@ -9,6 +9,7 @@ API 文档: http://localhost:8000/docs
 
 import io
 import logging
+import threading
 from pathlib import Path
 from typing import Optional
 
@@ -37,6 +38,17 @@ app = FastAPI(
 # 读取静态首页（零依赖，不用 Jinja2）
 # ============================================================
 _INDEX_HTML = (Path(__file__).parent / "templates" / "index.html").read_text()
+
+# ============================================================
+# 采集进度（Web 端轮询用）
+# ============================================================
+_scrape_status = {
+    "running": False,
+    "current": 0,
+    "total": 10,
+    "count": 0,
+}
+
 
 # ============================================================
 # 评分区间常量（唯一数据源，避免多处重复定义）
@@ -143,28 +155,45 @@ def api_stats():
 @app.post("/api/movies/scrape")
 def api_scrape():
     """
-    触发一次新的采集任务。
-
-    流程：清空数据库 → 爬取豆瓣 Top250 → 清洗 → 入库。
-    采集需要约 15 秒，此接口会同步等待完成后返回。
+    触发一次新的采集任务（后台线程执行，前端轮询 /api/movies/scrape/status 获取进度）。
     """
-    try:
-        movies = scrape_top250()
-    except Exception as e:
-        logger.exception("采集失败")
-        raise HTTPException(status_code=500, detail="采集失败，请稍后重试")
+    global _scrape_status
+    if _scrape_status["running"]:
+        raise HTTPException(status_code=409, detail="采集正在进行中，请等待完成")
 
-    if not movies:
-        raise HTTPException(status_code=500, detail="未采集到任何数据")
+    _scrape_status = {"running": True, "current": 0, "total": 10, "count": 0}
 
-    df = clean_data(movies)
-    records = df.to_dict(orient="records")
+    def _run():
+        global _scrape_status
+        try:
+            def on_progress(current, total, count):
+                _scrape_status["current"] = current
+                _scrape_status["total"] = total
+                _scrape_status["count"] = count
 
-    clear_movies()
-    count = save_movies(records)
+            movies = scrape_top250(progress_callback=on_progress)
+            df = clean_data(movies)
+            records = df.to_dict(orient="records")
+            clear_movies()
+            save_movies(records)
+            _scrape_status["running"] = False
+            logger.info(f"采集完成: {len(records)} 条入库")
+        except Exception:
+            logger.exception("采集失败")
+            _scrape_status["running"] = False
+            _scrape_status["current"] = -1  # 标记失败
 
-    logger.info(f"采集完成: {count} 条入库")
-    return {"count": count, "status": "ok"}
+    threading.Thread(target=_run, daemon=True).start()
+    return {"status": "started", "message": "采集任务已启动"}
+
+
+# ============================================================
+# 路由：采集进度
+# ============================================================
+@app.get("/api/movies/scrape/status")
+def api_scrape_status():
+    """返回当前采集进度（前端轮询）。"""
+    return _scrape_status
 
 
 # ============================================================
